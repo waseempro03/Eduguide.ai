@@ -1,0 +1,18 @@
+{
+  "nationality": "India",
+  "educationLevel": "Undergraduate",
+  "degree": "Masters",
+  "field": "Computer Science",
+  "cgpa": 8.5,
+  "graduationYear": 2025,
+  "preferredCountries": [
+    "Germany",
+    "United States",
+    "United Kingdom"
+  ],
+  "budget": "Moderate",
+  "ieltsScore": 7.5,
+  "toeflScore": 102,
+  "greScore": 324,
+  "workExperience": 1
+}

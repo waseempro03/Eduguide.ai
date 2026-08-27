@@ -1,0 +1,114 @@
+[
+  {
+    "id": "dl_1",
+    "title": "US Universities Fall 2027 Early Action / Early Decision",
+    "category": "Admissions",
+    "country": "United States",
+    "deadlineDate": "2026-11-01",
+    "description": "MIT, Stanford, Harvard, Princeton, Caltech Early Action / Early Decision round.",
+    "urgent": false,
+    "recommendedActions": [
+      "Finalize Common App / Coalition App essays",
+      "Request 3 Letters of Recommendation (LORs) from professors/mentors",
+      "Send official TOEFL/IELTS and GRE score reports"
+    ]
+  },
+  {
+    "id": "dl_2",
+    "title": "UK Oxford & Cambridge (Oxbridge) & Medicine Deadline",
+    "category": "Admissions",
+    "country": "United Kingdom",
+    "deadlineDate": "2026-10-15",
+    "description": "UCAS application deadline for Oxford, Cambridge, and all UK Medicine/Dentistry courses for 2027 entry.",
+    "urgent": false,
+    "recommendedActions": [
+      "Polish UCAS Personal Statement (4,000 characters)",
+      "Register for admissions tests (e.g., UCAT, MAT, STEP, LNAT)",
+      "Ensure academic reference is uploaded by school referee"
+    ]
+  },
+  {
+    "id": "dl_3",
+    "title": "German Universities Summer 2027 Intake",
+    "category": "Admissions",
+    "country": "Germany",
+    "deadlineDate": "2027-01-15",
+    "description": "Uni-Assist and direct portal application deadline for TUM, LMU Munich, RWTH Aachen Summer semester.",
+    "urgent": false,
+    "recommendedActions": [
+      "Get APS Certificate (India / China / Vietnam candidates)",
+      "Order certified copies of Bachelor's degree and transcripts",
+      "Verify course module description (Modulhandbuch) compatibility"
+    ]
+  },
+  {
+    "id": "dl_4",
+    "title": "German Universities Winter 2026/2027 (Main Intake)",
+    "category": "Admissions",
+    "country": "Germany",
+    "deadlineDate": "2026-07-15",
+    "description": "Main application window for all public universities in Germany for the Winter semester starting October 2026.",
+    "urgent": true,
+    "recommendedActions": [
+      "Submit Uni-Assist VPD requests at least 6 weeks in advance",
+      "Open Blocked Account (Expatrio / Coracle / Fintiba) with €11,208",
+      "Book German student visa appointment at VFS / Embassy"
+    ]
+  },
+  {
+    "id": "dl_5",
+    "title": "Chevening Scholarships 2027/2028 Cycle",
+    "category": "Scholarship",
+    "country": "United Kingdom",
+    "deadlineDate": "2026-11-05",
+    "description": "Fully funded UK government scholarship covering master's tuition, stipend, and airfare.",
+    "urgent": false,
+    "recommendedActions": [
+      "Draft 4 Chevening leadership and networking essays (500 words each)",
+      "Select 3 eligible master's degree courses at UK universities",
+      "Secure two strong professional/academic referees"
+    ]
+  },
+  {
+    "id": "dl_6",
+    "title": "DAAD EPOS Postgraduate Scholarship Deadline",
+    "category": "Scholarship",
+    "country": "Germany",
+    "deadlineDate": "2026-10-31",
+    "description": "DAAD Development-Related Postgraduate Courses full funding for developing nation scholars.",
+    "urgent": false,
+    "recommendedActions": [
+      "Gather 2 years of verifiable professional work experience proof",
+      "Draft Europass format CV and DAAD motivation letter",
+      "Apply directly to participating German university course coordinators"
+    ]
+  },
+  {
+    "id": "dl_7",
+    "title": "Erasmus Mundus Joint Masters (EMJM) Scholarship Round",
+    "category": "Scholarship",
+    "country": "European Union",
+    "deadlineDate": "2027-01-15",
+    "description": "Full EU funding covering tuition and €1,400/month stipend across 2+ EU countries.",
+    "urgent": false,
+    "recommendedActions": [
+      "Select up to 3 Erasmus Mundus master's consortia from the EMJM catalogue",
+      "Tailor SOP to the mobility track of the chosen consortium",
+      "Ensure proof of residence and english proficiency test are ready"
+    ]
+  },
+  {
+    "id": "dl_8",
+    "title": "SINGA Singapore PhD Award (August 2027 Intake)",
+    "category": "Scholarship",
+    "country": "Singapore",
+    "deadlineDate": "2026-12-01",
+    "description": "Full PhD scholarship at NUS, NTU, SUTD with S$2,200-S$2,700/mo stipend and travel allowance.",
+    "urgent": false,
+    "recommendedActions": [
+      "Identify prospective PhD supervisors from A*STAR, NUS, or NTU faculty",
+      "Prepare research proposal / academic interests statement",
+      "Upload 2 academic referee letters"
+    ]
+  }
+]

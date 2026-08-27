@@ -1,0 +1,180 @@
+{
+  "exchangeRates": {
+    "USD": 1.0,
+    "EUR": 0.92,
+    "GBP": 0.79,
+    "INR": 83.5,
+    "CAD": 1.36,
+    "AUD": 1.52,
+    "SGD": 1.35,
+    "CHF": 0.89,
+    "JPY": 156.0
+  },
+  "countries": [
+    {
+      "country": "Germany",
+      "flag": "🇩🇪",
+      "currency": "EUR",
+      "currencySymbol": "€",
+      "blockedAccountRequired": true,
+      "blockedAccountAmountEUR": 11208,
+      "avgMonthlyTotalUSD": 1050,
+      "breakdown": {
+        "rent": 450,
+        "food": 250,
+        "healthInsurance": 120,
+        "transport": 49,
+        "utilitiesAndInternet": 80,
+        "leisure": 100
+      },
+      "partTimeWagePerHourEUR": 12.82,
+      "workRights": "140 full days or 280 half days per year",
+      "pswDuration": "18 Months Job Seeking Visa",
+      "tips": "Public universities charge nominal semester fee (~€150-€350). The 'Deutschlandticket' covers all regional public transit for €49/month."
+    },
+    {
+      "country": "United States",
+      "flag": "🇺🇸",
+      "currency": "USD",
+      "currencySymbol": "$",
+      "blockedAccountRequired": false,
+      "avgMonthlyTotalUSD": 1850,
+      "breakdown": {
+        "rent": 950,
+        "food": 400,
+        "healthInsurance": 180,
+        "transport": 100,
+        "utilitiesAndInternet": 120,
+        "leisure": 100
+      },
+      "partTimeWagePerHourUSD": 15.0,
+      "workRights": "Up to 20 hrs/week on-campus during semesters, full-time during breaks",
+      "pswDuration": "1 Year OPT (Standard) + 24 Months STEM Extension (36 months total)",
+      "tips": "Health insurance is mandatory. Living off-campus with roommates drastically lowers accommodation expense."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "🇬🇧",
+      "currency": "GBP",
+      "currencySymbol": "£",
+      "blockedAccountRequired": false,
+      "avgMonthlyTotalUSD": 1600,
+      "breakdown": {
+        "rent": 800,
+        "food": 300,
+        "healthInsurance": 65,
+        "transport": 90,
+        "utilitiesAndInternet": 100,
+        "leisure": 120
+      },
+      "partTimeWagePerHourGBP": 11.44,
+      "workRights": "Up to 20 hrs/week during term-time",
+      "pswDuration": "2 Years Graduate Route (3 Years for PhD)",
+      "tips": "NHS Immigration Health Surcharge (£776/yr) paid with visa. London costs ~30-40% more than northern cities (Manchester, Leeds, Sheffield)."
+    },
+    {
+      "country": "Canada",
+      "flag": "🇨🇦",
+      "currency": "CAD",
+      "currencySymbol": "CA$",
+      "blockedAccountRequired": true,
+      "gicRequiredCAD": 20635,
+      "avgMonthlyTotalUSD": 1400,
+      "breakdown": {
+        "rent": 750,
+        "food": 320,
+        "healthInsurance": 75,
+        "transport": 85,
+        "utilitiesAndInternet": 90,
+        "leisure": 80
+      },
+      "partTimeWagePerHourCAD": 17.2,
+      "workRights": "Up to 24 hrs/week off-campus during academic session",
+      "pswDuration": "Up to 3 Years Post-Graduation Work Permit (PGWP)",
+      "tips": "Guaranteed Investment Certificate (GIC) of CA$20,635 mandatory for study permit under SDS."
+    },
+    {
+      "country": "Australia",
+      "flag": "🇦🇺",
+      "currency": "AUD",
+      "currencySymbol": "A$",
+      "blockedAccountRequired": false,
+      "financialCapacityReqAUD": 29710,
+      "avgMonthlyTotalUSD": 1550,
+      "breakdown": {
+        "rent": 850,
+        "food": 350,
+        "healthInsurance": 60,
+        "transport": 90,
+        "utilitiesAndInternet": 100,
+        "leisure": 100
+      },
+      "partTimeWagePerHourAUD": 23.23,
+      "workRights": "48 hours per fortnight during study sessions",
+      "pswDuration": "2-4 Years Temporary Graduate Visa (Subclass 485)",
+      "tips": "Overseas Student Health Cover (OSHC) is compulsory. Highest minimum wage in the world for student part-time work."
+    },
+    {
+      "country": "Singapore",
+      "flag": "🇸🇬",
+      "currency": "SGD",
+      "currencySymbol": "S$",
+      "blockedAccountRequired": false,
+      "avgMonthlyTotalUSD": 1300,
+      "breakdown": {
+        "rent": 700,
+        "food": 350,
+        "healthInsurance": 50,
+        "transport": 70,
+        "utilitiesAndInternet": 60,
+        "leisure": 70
+      },
+      "partTimeWagePerHourSGD": 12.0,
+      "workRights": "Up to 16 hrs/week for approved universities",
+      "pswDuration": "1 Year LTVP Job Search Pass",
+      "tips": "Hawker centres provide incredibly cheap, Michelin-guide quality meals for S$4-S$7."
+    },
+    {
+      "country": "Switzerland",
+      "flag": "🇨🇭",
+      "currency": "CHF",
+      "currencySymbol": "CHF",
+      "blockedAccountRequired": true,
+      "blockedAccountAmountCHF": 21000,
+      "avgMonthlyTotalUSD": 1950,
+      "breakdown": {
+        "rent": 900,
+        "food": 500,
+        "healthInsurance": 200,
+        "transport": 100,
+        "utilitiesAndInternet": 100,
+        "leisure": 150
+      },
+      "partTimeWagePerHourCHF": 28.0,
+      "workRights": "Up to 15 hrs/week after 6 months of study",
+      "pswDuration": "6 Months Job Search Permit",
+      "tips": "ETH and EPFL tuition is under $1,600/year, making total education cost comparable to US/UK despite higher living cost."
+    },
+    {
+      "country": "France",
+      "flag": "🇫🇷",
+      "currency": "EUR",
+      "currencySymbol": "€",
+      "blockedAccountRequired": true,
+      "blockedAccountAmountEUR": 7380,
+      "avgMonthlyTotalUSD": 980,
+      "breakdown": {
+        "rent": 450,
+        "food": 250,
+        "healthInsurance": 0,
+        "transport": 45,
+        "utilitiesAndInternet": 65,
+        "leisure": 90
+      },
+      "partTimeWagePerHourEUR": 11.65,
+      "workRights": "Up to 60% of annual legal working time (~20 hrs/week)",
+      "pswDuration": "2 Years APS / RECE Permit (Master's graduates)",
+      "tips": "French government CAF housing subsidy covers up to 30-40% of student rent monthly! Free basic healthcare for students."
+    }
+  ]
+}

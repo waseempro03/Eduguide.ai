@@ -1,0 +1,176 @@
+{
+  "categories": [
+    {
+      "id": "ielts",
+      "name": "IELTS Academic Prep",
+      "icon": "BookOpen",
+      "description": "Vocabulary, grammar, and reading comprehension diagnostic questions.",
+      "questions": [
+        {
+          "id": "ielts_1",
+          "category": "ielts",
+          "type": "multiple-choice",
+          "question": "Which word is the closest synonym for 'PRAGMATIC' as often used in academic contexts?",
+          "options": [
+            "Theoretical and abstract",
+            "Practical and realistic",
+            "Idealistic and hopeful",
+            "Dogmatic and strict"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "'Pragmatic' means dealing with things sensibly and realistically based on practical rather than theoretical considerations."
+        },
+        {
+          "id": "ielts_2",
+          "category": "ielts",
+          "type": "multiple-choice",
+          "question": "Identify the grammatically correct sentence for academic writing:",
+          "options": [
+            "Despite of the high cost, many students choose to study abroad.",
+            "Despite the high cost, many students choose to study abroad.",
+            "In spite the high cost, many students choose to study abroad.",
+            "Although the high cost, many students choose to study abroad."
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "'Despite' takes a noun phrase directly without 'of'. Alternatively, one can say 'In spite of the high cost'."
+        },
+        {
+          "id": "ielts_3",
+          "category": "ielts",
+          "type": "multiple-choice",
+          "question": "Which cohesive connector best expresses a cause-and-effect relationship?",
+          "options": [
+            "Consequently",
+            "Conversely",
+            "Notwithstanding",
+            "Simultaneously"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "'Consequently' indicates that something happens as a result of something else."
+        }
+      ]
+    },
+    {
+      "id": "gre_quant",
+      "name": "GRE Quantitative Reasoning",
+      "icon": "Calculator",
+      "description": "Algebra, geometry, arithmetic, and data interpretation practice.",
+      "questions": [
+        {
+          "id": "gre_q1",
+          "category": "gre_quant",
+          "type": "multiple-choice",
+          "question": "If x and y are positive integers such that 3x + 7y = 48, what is the value of x when y is an even integer?",
+          "options": [
+            "2",
+            "4",
+            "9",
+            "12"
+          ],
+          "correctAnswerIndex": 3,
+          "explanation": "If y is even and positive, test y = 2: 3x + 7(2) = 48 => 3x = 34 (not divisible by 3). If y = 4: 3x + 7(4) = 48 => 3x = 48 - 28 = 20 (not div by 3). If y = 6: 3x + 7(6) = 48 => 3x = 48 - 42 = 6 => x = 2 (Wait: 3(2) + 7(6) = 6 + 42 = 48. Let's check y=2, 4, 6. For x=2, y=6. For x=9, 3(9)+7(y)=27+7y=48 => 7y=21 => y=3 (odd). For x=12, 3(12)+7y=36+7y=48 => 7y=12 (not integer). For x=2, y=6 (even integer)). So x = 2."
+        },
+        {
+          "id": "gre_q2",
+          "category": "gre_quant",
+          "type": "multiple-choice",
+          "question": "A worker's salary increases by 20% and later decreases by 20%. Compared to the original salary, the final salary is:",
+          "options": [
+            "Equal to original salary",
+            "4% higher",
+            "4% lower",
+            "2% lower"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "Let initial salary be 100. After 20% increase: 120. After 20% decrease: 120 - 0.20*(120) = 120 - 24 = 96. Thus, 4% lower than original."
+        },
+        {
+          "id": "gre_q3",
+          "category": "gre_quant",
+          "type": "multiple-choice",
+          "question": "Quantity A: The number of distinct prime factors of 120. Quantity B: The number of distinct prime factors of 210.",
+          "options": [
+            "Quantity A is greater",
+            "Quantity B is greater",
+            "The two quantities are equal",
+            "The relationship cannot be determined"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "120 = 2^3 * 3 * 5 -> Distinct prime factors: {2, 3, 5} (Count = 3). 210 = 2 * 3 * 5 * 7 -> Distinct prime factors: {2, 3, 5, 7} (Count = 4). Therefore, Quantity B (4) is greater than Quantity A (3)."
+        }
+      ]
+    },
+    {
+      "id": "gre_verbal",
+      "name": "GRE Verbal Reasoning",
+      "icon": "Sparkles",
+      "description": "Text completion, sentence equivalence, and high-frequency vocabulary.",
+      "questions": [
+        {
+          "id": "gre_v1",
+          "category": "gre_verbal",
+          "type": "multiple-choice",
+          "question": "Despite her reputation for being _______, the professor surprised everyone by giving an exceptionally engaging and lively lecture.",
+          "options": [
+            "ebullient",
+            "pedantic",
+            "garrulous",
+            "munificent"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "The sentence indicates a contrast ('Despite... lively lecture'). 'Pedantic' means dull, excessively concerned with minor rules or displaying academic learning, contrasting with engaging."
+        },
+        {
+          "id": "gre_v2",
+          "category": "gre_verbal",
+          "type": "multiple-choice",
+          "question": "Select the pair of words that are closest in meaning (Sentence Equivalence style):",
+          "options": [
+            "Ephemeral & Transient",
+            "Loquacious & Reticent",
+            "Audacious & Timid",
+            "Pernicious & Benign"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "'Ephemeral' and 'Transient' both mean lasting for a very short time."
+        }
+      ]
+    },
+    {
+      "id": "gate_cs",
+      "name": "GATE & CS Fundamentals",
+      "icon": "Cpu",
+      "description": "Algorithms, data structures, and computer architecture essentials.",
+      "questions": [
+        {
+          "id": "gate_1",
+          "category": "gate_cs",
+          "type": "multiple-choice",
+          "question": "What is the worst-case time complexity of searching in an unbalanced Binary Search Tree (BST) of n nodes?",
+          "options": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n log n)"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "In an unbalanced (skewed) BST, all nodes form a single linear chain (like a linked list), making search O(n)."
+        },
+        {
+          "id": "gate_2",
+          "category": "gate_cs",
+          "type": "multiple-choice",
+          "question": "Which page replacement algorithm is known as the optimal page replacement algorithm (Belady's anomaly free)?",
+          "options": [
+            "FIFO (First In First Out)",
+            "LRU (Least Recently Used)",
+            "OPT / MIN (Replaces the page that will not be used for the longest period)",
+            "LFU (Least Frequently Used)"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "OPT (Optimal Page Replacement) replaces the page that will not be referenced for the longest time in the future, providing the lowest possible page fault rate."
+        }
+      ]
+    }
+  ]
+}

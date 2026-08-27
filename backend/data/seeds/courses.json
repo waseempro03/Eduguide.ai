@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "M.S. in Computer Science & Artificial Intelligence",
+    "university": "Massachusetts Institute of Technology (MIT)",
+    "country": "United States",
+    "degree": "Masters",
+    "field": "Computer Science & AI",
+    "duration": "2 Years",
+    "tuitionPerYear": "$59,750",
+    "requirements": ["GRE General recommended", "TOEFL 100+ / IELTS 7.5+", "Strong background in Algorithms & Math"],
+    "website": "https://www.eecs.mit.edu/academics/graduate-programs/"
+  },
+  {
+    "id": 2,
+    "name": "M.Sc. in Informatics (Computer Science)",
+    "university": "Technical University of Munich (TUM)",
+    "country": "Germany",
+    "degree": "Masters",
+    "field": "Computer Science",
+    "duration": "2 Years (4 Semesters)",
+    "tuitionPerYear": "€0 (Public University tuition free; admin fee €150/sem)",
+    "requirements": ["B.Sc. in Computer Science", "IELTS 6.5+ or TOEFL 88+", "GRE/GATE recommended for non-EU degrees"],
+    "website": "https://www.cit.tum.de/en/cit/studies/degree-programs/master-informatics/"
+  },
+  {
+    "id": 3,
+    "name": "M.Sc. in Advanced Computer Science",
+    "university": "University of Oxford",
+    "country": "United Kingdom",
+    "degree": "Masters",
+    "field": "Computer Science",
+    "duration": "1 Year (Full-time)",
+    "tuitionPerYear": "£36,000",
+    "requirements": ["First-class undergraduate degree in CS/Maths", "IELTS 7.5+ (7.0 each min)", "3 Academic references"],
+    "website": "https://www.cs.ox.ac.uk/admissions/graduate/msc-acs/"
+  },
+  {
+    "id": 4,
+    "name": "M.Tech in Data Science & Artificial Intelligence",
+    "university": "Indian Institute of Technology Madras (IIT Madras)",
+    "country": "India",
+    "degree": "Masters",
+    "field": "Data Science & AI",
+    "duration": "2 Years",
+    "tuitionPerYear": "₹50,000 / year",
+    "requirements": ["GATE score in CS/DA/EC", "B.Tech/B.E. in relevant discipline with min 60%"],
+    "website": "https://www.iitm.ac.in/academics/departments/computer-science-and-engineering"
+  },
+  {
+    "id": 5,
+    "name": "Master of Computing (Artificial Intelligence Specialization)",
+    "university": "National University of Singapore (NUS)",
+    "country": "Singapore",
+    "degree": "Masters",
+    "field": "Artificial Intelligence",
+    "duration": "1.5 - 2 Years",
+    "tuitionPerYear": "SGD $54,000",
+    "requirements": ["Good Honours degree in computing", "GRE: 320+ (Quant 160+)", "TOEFL 90+ / IELTS 6.0+"],
+    "website": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-ai/"
+  }
+]

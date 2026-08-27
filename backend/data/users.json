@@ -1,0 +1,51 @@
+[
+  {
+    "id": "usr_1787720881318_vy7x",
+    "name": "Mohamed Waseem",
+    "email": "waseem@example.com",
+    "password": "password123",
+    "avatar": null,
+    "provider": "email",
+    "createdAt": "2026-08-26T05:08:01.318Z"
+  },
+  {
+    "id": "usr_g_g_12345",
+    "name": "Google Student",
+    "email": "student@gmail.com",
+    "avatar": null,
+    "provider": "google",
+    "createdAt": "2026-08-26T05:08:18.098Z"
+  },
+  {
+    "id": "usr_apple_apple_12345",
+    "name": "Apple Student",
+    "email": "student@privaterelay.appleid.com",
+    "avatar": null,
+    "provider": "apple",
+    "createdAt": "2026-08-26T05:08:32.479Z"
+  },
+  {
+    "id": "usr_apple_apple_1787722682797",
+    "name": "Apple User",
+    "email": "user_1787722682797@privaterelay.appleid.com",
+    "avatar": null,
+    "provider": "apple",
+    "createdAt": "2026-08-26T05:38:02.810Z"
+  },
+  {
+    "id": "usr_apple_apple_1787722846941",
+    "name": "Mohamed Waseem",
+    "email": "mohamed.waseem@privaterelay.appleid.com",
+    "avatar": null,
+    "provider": "apple",
+    "createdAt": "2026-08-26T05:40:46.955Z"
+  },
+  {
+    "id": "usr_g_google_1787724296131",
+    "name": "Mohamed Waseem",
+    "email": "mohamed.waseem@gmail.com",
+    "avatar": null,
+    "provider": "google",
+    "createdAt": "2026-08-26T06:04:56.139Z"
+  }
+]

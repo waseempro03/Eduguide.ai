@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "name": "IELTS Academic",
+    "fullName": "International English Language Testing System",
+    "purpose": "English language proficiency for higher education and global migration (accepted in UK, Australia, Canada, New Zealand, Europe, and USA).",
+    "countries": ["United Kingdom", "Canada", "Australia", "Germany", "United States", "Global"],
+    "eligibility": "Open to all candidates (recommended age 16+)",
+    "sections": [
+      { "name": "Listening", "description": "4 sections, 40 questions", "scoreRange": "Band 0 - 9" },
+      { "name": "Reading", "description": "3 long texts, 40 questions", "scoreRange": "Band 0 - 9" },
+      { "name": "Writing", "description": "Task 1 (Report/Chart) + Task 2 (Essay)", "scoreRange": "Band 0 - 9" },
+      { "name": "Speaking", "description": "Face-to-face interview in 3 parts", "scoreRange": "Band 0 - 9" }
+    ],
+    "totalScore": "Band 0 to 9.0 (0.5 increments)",
+    "duration": "2 hours 45 minutes",
+    "fee": "$220 - $260 USD (~₹17,000 INR)",
+    "officialWebsite": "https://www.ielts.org",
+    "preparationTips": ["Practice Cambridge IELTS official past papers", "Focus on Task 2 essay structure and cohesion", "Listen to diverse English accents (BBC, NPR)"]
+  },
+  {
+    "id": 2,
+    "name": "TOEFL iBT",
+    "fullName": "Test of English as a Foreign Language (Internet-Based Test)",
+    "purpose": "Measures English proficiency of non-native speakers for university admissions (preferred extensively in USA and Canada).",
+    "countries": ["United States", "Canada", "Germany", "United Kingdom", "Global"],
+    "eligibility": "Open to all students seeking international education",
+    "sections": [
+      { "name": "Reading", "description": "2 passages, 20 questions", "scoreRange": "0 - 30" },
+      { "name": "Listening", "description": "3 lectures, 2 conversations", "scoreRange": "0 - 30" },
+      { "name": "Speaking", "description": "4 integrated and independent tasks", "scoreRange": "0 - 30" },
+      { "name": "Writing", "description": "Integrated task + Writing for Academic Discussion", "scoreRange": "0 - 30" }
+    ],
+    "totalScore": "0 to 120 points",
+    "duration": "Under 2 hours (Updated shorter format)",
+    "fee": "$195 - $245 USD (~₹16,900 INR)",
+    "officialWebsite": "https://www.ets.org/toefl",
+    "preparationTips": ["Practice official ETS TOEFL test bank", "Practice speaking into a microphone with strict timer", "Master academic note-taking during audio"]
+  },
+  {
+    "id": 3,
+    "name": "GRE General Test",
+    "fullName": "Graduate Record Examination",
+    "purpose": "Standardized test for admission into Master's, MBA, specialized Master's in Business, and Doctoral degree programs worldwide.",
+    "countries": ["United States", "Canada", "Germany", "Singapore", "United Kingdom", "Global"],
+    "eligibility": "Bachelor's degree or currently enrolled undergraduate student",
+    "sections": [
+      { "name": "Verbal Reasoning", "description": "Text Completion, Sentence Equivalence, Reading Comprehension", "scoreRange": "130 - 170" },
+      { "name": "Quantitative Reasoning", "description": "Algebra, Geometry, Data Analysis, Arithmetic", "scoreRange": "130 - 170" },
+      { "name": "Analytical Writing", "description": "1 Issue Essay task", "scoreRange": "0.0 - 6.0" }
+    ],
+    "totalScore": "260 to 340 (Verbal + Quant) + Analytical Writing (0-6)",
+    "duration": "1 hour 58 minutes (Shorter GRE format)",
+    "fee": "$220 USD (~₹18,500 INR)",
+    "officialWebsite": "https://www.ets.org/gre",
+    "preparationTips": ["Master high-frequency GRE vocabulary lists", "Practice Manhattan 5lb Quant book", "Simulate official PowerPrep practice exams"]
+  },
+  {
+    "id": 4,
+    "name": "GMAT Focus Edition",
+    "fullName": "Graduate Management Admission Test",
+    "purpose": "Premier admissions assessment for leading global business schools and MBA / Executive MBA programs.",
+    "countries": ["United States", "United Kingdom", "France", "Singapore", "India (ISB)", "Global"],
+    "eligibility": "Prospective business and management school applicants",
+    "sections": [
+      { "name": "Quantitative Reasoning", "description": "Problem solving without calculator", "scoreRange": "60 - 90" },
+      { "name": "Verbal Reasoning", "description": "Reading Comprehension and Critical Reasoning", "scoreRange": "60 - 90" },
+      { "name": "Data Insights", "description": "Data sufficiency, Multi-source reasoning, Table analysis", "scoreRange": "60 - 90" }
+    ],
+    "totalScore": "205 to 805 points",
+    "duration": "2 hours 15 minutes",
+    "fee": "$275 - $300 USD (~₹23,000 INR)",
+    "officialWebsite": "https://www.mba.com/exams/gmat-focus-edition",
+    "preparationTips": ["Master Critical Reasoning argument logic", "Focus on mental math and data tables", "Take official GMAT Focus mocks"]
+  },
+  {
+    "id": 5,
+    "name": "GATE",
+    "fullName": "Graduate Aptitude Test in Engineering",
+    "purpose": "Qualifying entrance exam for M.Tech/Ph.D. admissions in premier Indian institutes (IITs, IISc, NITs) and PSU recruitment.",
+    "countries": ["India", "Singapore (NUS/NTU)", "Germany (TUM/RWTH Aachen)"],
+    "eligibility": "Graduates in Engineering/Technology/Science or pre-final/final year students",
+    "sections": [
+      { "name": "General Aptitude", "description": "Verbal & Numerical Ability", "scoreRange": "15 Marks" },
+      { "name": "Engineering Mathematics & Core Subject", "description": "Discipline-specific technical syllabus", "scoreRange": "85 Marks" }
+    ],
+    "totalScore": "100 Marks (Normalized GATE Score: 1000)",
+    "duration": "3 hours (180 minutes)",
+    "fee": "₹1,800 INR (Regular) / ₹900 (Female/SC/ST)",
+    "officialWebsite": "https://gate2025.iitr.ac.in",
+    "preparationTips": ["Solve previous 25 years GATE question papers", "Master core subject fundamentals and formula notes", "Take full-length virtual test series"]
+  }
+]

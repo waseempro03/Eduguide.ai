@@ -1,0 +1,27 @@
+{
+  "name": "eduguide-ai-assistant",
+  "version": "2.0.0",
+  "description": "EduGuide AI — Global Education & Career Assistant with Intent Classification, 100-Point Scholarship Matching, Source Citations & Dual-Mode DB",
+  "scripts": {
+    "dev": "npm run dev:backend & npm run dev:frontend",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "test": "cd backend && npm test",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "ai",
+    "education",
+    "scholarships",
+    "universities",
+    "placements",
+    "nlp",
+    "intent-classification",
+    "react",
+    "express",
+    "mongodb",
+    "openai"
+  ],
+  "author": "EduGuide AI Team",
+  "license": "MIT"
+}

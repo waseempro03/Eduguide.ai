@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "messageId": "test_msg_1787678070260",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-25T17:14:30.265Z"
+  },
+  {
+    "id": 2,
+    "messageId": "test_msg_1787678083024",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-25T17:14:43.028Z"
+  },
+  {
+    "id": 3,
+    "messageId": "test_msg_1787678093662",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-25T17:14:53.666Z"
+  },
+  {
+    "id": 4,
+    "messageId": "test_msg_1787678101820",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-25T17:15:01.824Z"
+  },
+  {
+    "id": 5,
+    "messageId": "msg_test_1",
+    "faqId": 16,
+    "question": "Tell me about hostel charges.",
+    "answer": "",
+    "feedback": "positive",
+    "comment": "",
+    "timestamp": "2026-08-25T17:19:02.986Z"
+  },
+  {
+    "id": 6,
+    "messageId": "test_msg_1787679660194",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-25T17:41:00.198Z"
+  },
+  {
+    "id": 7,
+    "messageId": "test_msg_1787681009900",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-25T18:03:29.904Z"
+  },
+  {
+    "id": 8,
+    "messageId": "test_msg_1787681523723",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-25T18:12:03.729Z"
+  },
+  {
+    "id": 9,
+    "messageId": "test_msg_1787682233218",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-25T18:23:53.222Z"
+  },
+  {
+    "id": 10,
+    "messageId": "test_msg_1787682459816",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-25T18:27:39.824Z"
+  },
+  {
+    "id": 11,
+    "messageId": "test_msg_1787716942494",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-26T04:02:22.500Z"
+  },
+  {
+    "id": 12,
+    "messageId": "test_msg_1787717299753",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-26T04:08:19.760Z"
+  },
+  {
+    "id": 13,
+    "messageId": "test_msg_1787717981526",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-26T04:19:41.531Z"
+  },
+  {
+    "id": 14,
+    "messageId": "test_msg_1787718420282",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-26T04:27:00.288Z"
+  },
+  {
+    "id": 15,
+    "messageId": "test_msg_1787720874178",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-26T05:07:54.183Z"
+  },
+  {
+    "id": 16,
+    "messageId": "test_msg_1787722304025",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-26T05:31:44.032Z"
+  },
+  {
+    "id": 17,
+    "messageId": "test_msg_1787722560511",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-26T05:36:00.515Z"
+  },
+  {
+    "id": 18,
+    "messageId": "test_msg_1787722825217",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-26T05:40:25.222Z"
+  },
+  {
+    "id": 19,
+    "messageId": "test_msg_1787723037216",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-26T05:43:57.220Z"
+  },
+  {
+    "id": 20,
+    "messageId": "test_msg_1787723207520",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-26T05:46:47.525Z"
+  },
+  {
+    "id": 21,
+    "messageId": "test_msg_1787723572523",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-26T05:52:52.529Z"
+  },
+  {
+    "id": 22,
+    "messageId": "test_msg_1787724081282",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-26T06:01:21.287Z"
+  },
+  {
+    "id": 23,
+    "messageId": "test_msg_1787724510841",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-26T06:08:30.845Z"
+  },
+  {
+    "id": 24,
+    "messageId": "test_msg_1787725024526",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-26T06:17:04.533Z"
+  },
+  {
+    "id": 25,
+    "messageId": "test_msg_1787725314933",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-26T06:21:54.938Z"
+  },
+  {
+    "id": 26,
+    "messageId": "test_msg_1787725744322",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-26T06:29:04.328Z"
+  },
+  {
+    "id": 27,
+    "messageId": "test_msg_1787725766777",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-26T06:29:26.783Z"
+  },
+  {
+    "id": 28,
+    "messageId": "test_msg_1787726240474",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-08-26T06:37:20.480Z"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "name": "campusconnect-faq-backend",
+  "version": "1.0.0",
+  "description": "AI-Powered FAQ Chatbot Backend with local NLP Engine",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.19.0",
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.24.4",
+    "openai": "^6.49.0"
+  },
+  "keywords": [
+    "faq",
+    "chatbot",
+    "nlp",
+    "tf-idf",
+    "campusconnect"
+  ],
+  "author": "CampusConnect Team",
+  "license": "MIT"
+}

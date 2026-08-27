@@ -1,0 +1,733 @@
+{
+  "queries": [
+    {
+      "messageId": "msg_1787806289834_mdnf3n",
+      "query": "hi",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-27T04:51:40.650Z"
+    },
+    {
+      "messageId": "msg_1787793989787_zwhag0",
+      "query": "tell me about urself",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-27T01:26:36.246Z"
+    },
+    {
+      "messageId": "msg_1787793968265_bhuxf6",
+      "query": "hi",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-27T01:26:14.894Z"
+    },
+    {
+      "messageId": "msg_1787793523036_w5ks2c",
+      "query": "data analyst",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-27T01:18:51.950Z"
+    },
+    {
+      "messageId": "msg_1787793460675_9phllg",
+      "query": "im talking about dmat they have introduced recently",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-27T01:17:51.362Z"
+    },
+    {
+      "messageId": "msg_1787793352216_f2shqa",
+      "query": "What are the top DAAD scholarships for studying in Germany?",
+      "intent": "SCHOLARSHIP",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-27T01:16:00.791Z"
+    },
+    {
+      "messageId": "msg_1787793169594_jnmbub",
+      "query": "what about dmat",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-27T01:12:59.474Z"
+    },
+    {
+      "messageId": "msg_1787793113513_5zyxkh",
+      "query": "im planning to do pg in germany",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-27T01:12:03.664Z"
+    },
+    {
+      "messageId": "msg_1787793082631_2n0ky3",
+      "query": "ok thank you",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-27T01:11:25.954Z"
+    },
+    {
+      "messageId": "msg_1787793055088_u89a9z",
+      "query": "how can i get a seat there",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-27T01:11:08.498Z"
+    },
+    {
+      "messageId": "msg_1787793021886_9qjgfb",
+      "query": "tell about vit university",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-27T01:10:36.836Z"
+    },
+    {
+      "messageId": "msg_1787792721781_gmyg8d",
+      "query": "hi",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-27T01:05:24.884Z"
+    },
+    {
+      "messageId": "msg_1787792590408_8f1stk",
+      "query": "What are the top DAAD scholarships for studying in Germany?",
+      "intent": "SCHOLARSHIP",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-27T01:03:24.637Z"
+    },
+    {
+      "messageId": "msg_1787726325681_slmmaz",
+      "query": "hi",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:38:47.117Z"
+    },
+    {
+      "messageId": "msg_1787725891343_u2z6dg",
+      "query": "in india ?",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:31:32.516Z"
+    },
+    {
+      "messageId": "msg_1787725877990_gim0rw",
+      "query": "where is crescent university",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:31:19.324Z"
+    },
+    {
+      "messageId": "msg_1787725856777_q385tt",
+      "query": "i meant crescent university",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:30:59.277Z"
+    },
+    {
+      "messageId": "msg_1787725841664_n7pcoi",
+      "query": "where is crescent",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:30:42.266Z"
+    },
+    {
+      "messageId": "msg_1787725807841_9oye5p",
+      "query": "hi",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:30:13.618Z"
+    },
+    {
+      "messageId": "msg_1787725737221_mz7b9v",
+      "query": "explain quantum computing",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:28:57.559Z"
+    },
+    {
+      "messageId": "msg_1787725706702_iieg3l",
+      "query": "explain quantum computing",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:28:26.976Z"
+    },
+    {
+      "messageId": "msg_1787725675256_cwb10m",
+      "query": "explain quantum computing",
+      "intent": "ADMISSION",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:27:55.488Z"
+    },
+    {
+      "messageId": "msg_1787725653949_4lfswy",
+      "query": "what is photosynthesis",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:27:34.327Z"
+    },
+    {
+      "messageId": "msg_1787725627650_agfnmi",
+      "query": "who was Nikola Tesla",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:27:08.278Z"
+    },
+    {
+      "messageId": "msg_1787725485180_gc94mk",
+      "query": "where is crescent university located",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:24:45.399Z"
+    },
+    {
+      "messageId": "msg_1787725447482_j81fat",
+      "query": "what is deep learnming",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:24:07.714Z"
+    },
+    {
+      "messageId": "msg_1787725435092_yqnfdd",
+      "query": "only ai",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:23:55.476Z"
+    },
+    {
+      "messageId": "msg_1787725424425_jqxqu4",
+      "query": "what is ai",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:23:44.626Z"
+    },
+    {
+      "messageId": "msg_1787725405277_7r0m38",
+      "query": "who is the founder of sathyabama university",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:23:25.893Z"
+    },
+    {
+      "messageId": "msg_1787725303330_qxyn2t",
+      "query": "who is the domain creator",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 1,
+      "source": "gemini",
+      "timestamp": "2026-08-26T06:21:43.332Z"
+    },
+    {
+      "messageId": "msg_1787725296592_h88l7m",
+      "query": "what is your name",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 1,
+      "source": "gemini",
+      "timestamp": "2026-08-26T06:21:36.593Z"
+    },
+    {
+      "messageId": "msg_1787725268902_1c7npv",
+      "query": "who is the founder of sathyabama university",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:21:10.269Z"
+    },
+    {
+      "messageId": "msg_1787725200738_jl5wzm",
+      "query": "who is the founder of sathyabama university",
+      "intent": "EXAM",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:20:02.161Z"
+    },
+    {
+      "messageId": "msg_1787725071256_6dmgrp",
+      "query": "who is the founder of sathyabama university",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 1,
+      "source": "gemini",
+      "timestamp": "2026-08-26T06:17:51.257Z"
+    },
+    {
+      "messageId": "msg_1787725017985_p6yoe0",
+      "query": "how to learn python",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:16:58.207Z"
+    },
+    {
+      "messageId": "msg_1787725008329_b6xpps",
+      "query": "what is machine learning",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:16:48.653Z"
+    },
+    {
+      "messageId": "msg_1787724803788_rhrdig",
+      "query": "who is the founder of sathyabama university",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 1,
+      "source": "gemini",
+      "timestamp": "2026-08-26T06:13:23.789Z"
+    },
+    {
+      "messageId": "msg_1787724786862_glmunr",
+      "query": "who is the founder of sathyabama university",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 1,
+      "source": "gemini",
+      "timestamp": "2026-08-26T06:13:06.865Z"
+    },
+    {
+      "messageId": "msg_1787724701265_f99iij",
+      "query": "sathyabama",
+      "intent": "EXAM",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-26T06:12:24.313Z"
+    },
+    {
+      "messageId": "msg_1787724676320_ijw4a9",
+      "query": "tell about sathyabama",
+      "intent": "EXAM",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:11:16.560Z"
+    },
+    {
+      "messageId": "msg_1787724635639_0h9t5f",
+      "query": "HOW TO GET INTO IIT MADRAS",
+      "intent": "ADMISSION",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:10:36.097Z"
+    },
+    {
+      "messageId": "msg_1787724529060_n31sh8",
+      "query": "whats ur name",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 1,
+      "source": "gemini",
+      "timestamp": "2026-08-26T06:08:49.061Z"
+    },
+    {
+      "messageId": "msg_1787724520788_ylufda",
+      "query": "HOW TO GET INTO IIT MADRAS",
+      "intent": "ADMISSION",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:08:41.341Z"
+    },
+    {
+      "messageId": "msg_1787724272202_lpcs1q",
+      "query": "HOW TO GET INTO IIT MADRAS",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:04:32.437Z"
+    },
+    {
+      "messageId": "msg_1787724253322_2odn10",
+      "query": "HOW TO GET INTO IIT MADRAS",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:04:13.542Z"
+    },
+    {
+      "messageId": "msg_1787724231898_wth36i",
+      "query": "HI",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T06:03:54.533Z"
+    },
+    {
+      "messageId": "msg_1787722319920_e5fkl6",
+      "query": "What scholarships are available in Germany?",
+      "intent": "SCHOLARSHIP",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-26T05:32:00.502Z"
+    },
+    {
+      "messageId": "msg_1787722314004_cdihv3",
+      "query": "what is your name",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 1,
+      "source": "gemini",
+      "timestamp": "2026-08-26T05:31:54.006Z"
+    },
+    {
+      "messageId": "msg_1787718839715_8g7oqh",
+      "query": "whats ur name",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 1,
+      "source": "gemini",
+      "timestamp": "2026-08-26T04:33:59.716Z"
+    },
+    {
+      "messageId": "msg_1787718824471_k9edva",
+      "query": "who is your creator",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 1,
+      "source": "gemini",
+      "timestamp": "2026-08-26T04:33:44.472Z"
+    },
+    {
+      "messageId": "msg_1787718814266_qqklfo",
+      "query": "who is ur domain creator",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 1,
+      "source": "gemini",
+      "timestamp": "2026-08-26T04:33:34.267Z"
+    },
+    {
+      "messageId": "msg_1787718797617_jbri15",
+      "query": "whats ur name",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 1,
+      "source": "gemini",
+      "timestamp": "2026-08-26T04:33:17.619Z"
+    },
+    {
+      "messageId": "msg_1787718699319_bg6wit",
+      "query": "whats ur name",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-26T04:31:41.539Z"
+    },
+    {
+      "messageId": "msg_1787718685240_t9pstl",
+      "query": "do web search it ?",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-26T04:31:30.559Z"
+    },
+    {
+      "messageId": "msg_1787718662762_u73t93",
+      "query": "wgho is ur domain creator ?",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-26T04:31:11.862Z"
+    },
+    {
+      "messageId": "msg_1787718640651_eer1o0",
+      "query": "who is the current registrar and say me name of all the oard membvers of BS Abdur Rahman Crescent Institute of Science & Technology",
+      "intent": "OUT_OF_SCOPE",
+      "matched": false,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-26T04:31:00.053Z"
+    },
+    {
+      "messageId": "msg_1787718594059_jt2qzs",
+      "query": "BS Abdur Rahman Crescent Institute of Science & Technology \n\n who is the owner",
+      "intent": "OUT_OF_SCOPE",
+      "matched": false,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-26T04:30:00.281Z"
+    },
+    {
+      "messageId": "msg_1787718545602_74k746",
+      "query": "?",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-26T04:29:21.746Z"
+    },
+    {
+      "messageId": "msg_1787718489057_ewdp2t",
+      "query": "say me about crecent university or vit university chennai ?",
+      "intent": "UNIVERSITY",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-26T04:28:35.151Z"
+    },
+    {
+      "messageId": "msg_1787718457888_lw6cgq",
+      "query": "how till ur ben trained",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-26T04:27:45.452Z"
+    },
+    {
+      "messageId": "msg_1787718347774_kcwkuv",
+      "query": "do u use websearch ?",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-26T04:25:57.269Z"
+    },
+    {
+      "messageId": "msg_1787718138028_dvdscm",
+      "query": "i need about some guidance about btech aids",
+      "intent": "OUT_OF_SCOPE",
+      "matched": false,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-26T04:22:30.731Z"
+    },
+    {
+      "messageId": "msg_1787718113922_nh8zg9",
+      "query": "whats ur name",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-26T04:21:57.249Z"
+    },
+    {
+      "messageId": "msg_1787718102960_upen5w",
+      "query": "how are you",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-26T04:21:46.467Z"
+    },
+    {
+      "messageId": "msg_1787718089833_2toqp2",
+      "query": "hi",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-26T04:21:33.859Z"
+    },
+    {
+      "messageId": "msg_1787717653327_6zzbsk",
+      "query": "hi",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-26T04:14:17.913Z"
+    },
+    {
+      "messageId": "msg_1787682496989_ck73af",
+      "query": "hi",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-25T18:28:16.992Z"
+    },
+    {
+      "messageId": "msg_1787682408154_jkn98x",
+      "query": "hi",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-25T18:26:48.161Z"
+    },
+    {
+      "messageId": "msg_1787682114358_3ftprh",
+      "query": "what is the process for German masters",
+      "intent": "OUT_OF_SCOPE",
+      "matched": false,
+      "confidence": 0.95,
+      "source": "intent_router",
+      "timestamp": "2026-08-25T18:21:54.360Z"
+    },
+    {
+      "messageId": "msg_1787682079334_yl1ny1",
+      "query": "hi",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-25T18:21:19.340Z"
+    },
+    {
+      "messageId": "msg_1787681223817_7jmibw",
+      "query": "Write me a Python game.",
+      "intent": "OUT_OF_SCOPE",
+      "matched": false,
+      "confidence": 0.95,
+      "source": "intent_router",
+      "timestamp": "2026-08-25T18:07:03.818Z"
+    },
+    {
+      "messageId": "msg_1787681213632_8ggflv",
+      "query": "What is the average placement package at IIT Madras?",
+      "intent": "PLACEMENT",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-25T18:06:53.636Z"
+    },
+    {
+      "messageId": "msg_1787681203894_h04osr",
+      "query": "Find fully funded scholarships for computer science in Germany.",
+      "intent": "SCHOLARSHIP",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-25T18:06:43.898Z"
+    },
+    {
+      "messageId": "msg_1787679785220_nrm3bg",
+      "query": "What are the admission requirements for undergraduate programs?",
+      "matched": true,
+      "faqId": 1,
+      "category": "Admissions",
+      "confidence": 0.99,
+      "timestamp": "2026-08-25T17:43:05.234Z"
+    },
+    {
+      "messageId": "msg_1787678851706_s9f5vb",
+      "query": "HOW MUCH IS THE ELIGIBILITY CRITERIA",
+      "matched": true,
+      "faqId": 1,
+      "category": "Admissions",
+      "confidence": 0.85,
+      "timestamp": "2026-08-25T17:27:31.716Z"
+    },
+    {
+      "messageId": "msg_1787678794318_c7f81g",
+      "query": "IM TRYING TO GET SCHOLARSHIP IN GERMAN",
+      "matched": true,
+      "faqId": 19,
+      "category": "Scholarships",
+      "confidence": 0.83,
+      "timestamp": "2026-08-25T17:26:34.339Z"
+    },
+    {
+      "messageId": "msg_1787678350790_zy0la1",
+      "query": "Can I bring my pet iguana to class?",
+      "matched": true,
+      "faqId": 33,
+      "category": "Campus Facilities",
+      "confidence": 0.99,
+      "timestamp": "2026-08-25T17:19:10.798Z"
+    },
+    {
+      "messageId": "msg_1787678342945_7enll8",
+      "query": "Can I bring my pet iguana to class?",
+      "matched": false,
+      "faqId": null,
+      "category": "Unanswered",
+      "confidence": 0.09,
+      "timestamp": "2026-08-25T17:19:02.954Z"
+    },
+    {
+      "messageId": "msg_1787678342920_6qrib5",
+      "query": "Tell me about hostel charges.",
+      "matched": true,
+      "faqId": 16,
+      "category": "Hostel",
+      "confidence": 0.98,
+      "timestamp": "2026-08-25T17:19:02.928Z"
+    },
+    {
+      "messageId": "msg_1787678342895_2tiut9",
+      "query": "What do I need to join the college?",
+      "matched": true,
+      "faqId": 1,
+      "category": "Admissions",
+      "confidence": 0.99,
+      "timestamp": "2026-08-25T17:19:02.903Z"
+    },
+    {
+      "messageId": "msg_1787678342851_ho09g6",
+      "query": "What are the admission requirements for undergraduate programs?",
+      "matched": true,
+      "faqId": 1,
+      "category": "Admissions",
+      "confidence": 0.99,
+      "timestamp": "2026-08-25T17:19:02.876Z"
+    }
+  ]
+}

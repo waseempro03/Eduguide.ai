@@ -1,0 +1,72 @@
+[
+  {
+    "id": 6,
+    "question": "who is the current registrar and say me name of all the oard membvers of BS Abdur Rahman Crescent Institute of Science & Technology",
+    "confidence": 0.95,
+    "candidateFaq": {},
+    "count": 1,
+    "timestamp": "2026-08-26T04:31:00.056Z",
+    "lastSeen": "2026-08-26T04:31:00.056Z",
+    "status": "unanswered",
+    "sessionId": "session_1787718085982"
+  },
+  {
+    "id": 5,
+    "question": "BS Abdur Rahman Crescent Institute of Science & Technology \n\n who is the owner",
+    "confidence": 0.95,
+    "candidateFaq": {},
+    "count": 1,
+    "timestamp": "2026-08-26T04:30:00.283Z",
+    "lastSeen": "2026-08-26T04:30:00.283Z",
+    "status": "unanswered",
+    "sessionId": "session_1787718085982"
+  },
+  {
+    "id": 4,
+    "question": "i need about some guidance about btech aids",
+    "confidence": 0.95,
+    "candidateFaq": {},
+    "count": 1,
+    "timestamp": "2026-08-26T04:22:30.734Z",
+    "lastSeen": "2026-08-26T04:22:30.734Z",
+    "status": "unanswered",
+    "sessionId": "session_1787718085982"
+  },
+  {
+    "id": 3,
+    "question": "what is the process for German masters",
+    "confidence": 0.95,
+    "candidateFaq": {},
+    "count": 1,
+    "timestamp": "2026-08-25T18:21:54.362Z",
+    "lastSeen": "2026-08-25T18:21:54.362Z",
+    "status": "unanswered",
+    "sessionId": "session_1787682031885"
+  },
+  {
+    "id": 2,
+    "question": "Write me a Python game.",
+    "confidence": 0.95,
+    "candidateFaq": {},
+    "count": 1,
+    "timestamp": "2026-08-25T18:07:03.820Z",
+    "lastSeen": "2026-08-25T18:07:03.820Z",
+    "status": "unanswered",
+    "sessionId": null
+  },
+  {
+    "id": 1,
+    "question": "Can I bring my pet iguana to class?",
+    "confidence": 0.09,
+    "candidateFaq": {
+      "id": 6,
+      "question": "What is the procedure to add or drop a course?",
+      "category": "Courses"
+    },
+    "count": 1,
+    "timestamp": "2026-08-25T17:19:02.953Z",
+    "lastSeen": "2026-08-25T17:19:02.953Z",
+    "status": "unanswered",
+    "sessionId": null
+  }
+]

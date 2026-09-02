@@ -206,29 +206,14 @@ export async function processEduGuideQuery(userMessage, conversationHistory = []
 
         const systemInstruction = `${EDUGUIDE_SYSTEM_PROMPT}\n\nReal-Time Web Search Context:\n${sources.map(s => `${s.title}: ${s.snippet} (${s.url})`).join('\n')}\n\nContextual Knowledge Base Data:\n${relevantContext}`;
 
-        let response;
-        try {
-          // Attempt with googleSearch tool
-          response = await gemini.models.generateContent({
-            model: modelName,
-            contents,
-            config: {
-              systemInstruction,
-              temperature: 0.7,
-              tools: [{ googleSearch: {} }]
-            }
-          });
-        } catch (toolErr) {
-          // Fallback immediately if search grounding tool throws quota/rate limit error
-          response = await gemini.models.generateContent({
-            model: modelName,
-            contents,
-            config: {
-              systemInstruction,
-              temperature: 0.7
-            }
-          });
-        }
+        const response = await gemini.models.generateContent({
+          model: modelName,
+          contents,
+          config: {
+            systemInstruction,
+            temperature: 0.7
+          }
+        });
 
         const answer = response.text?.trim();
 

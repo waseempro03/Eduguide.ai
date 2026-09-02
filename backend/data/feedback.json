@@ -448,5 +448,15 @@
     "feedback": "negative",
     "comment": "Needed more details on PG",
     "timestamp": "2026-09-02T04:52:38.079Z"
+  },
+  {
+    "id": 46,
+    "messageId": "test_msg_1788325014772",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-09-02T04:56:54.777Z"
   }
 ]

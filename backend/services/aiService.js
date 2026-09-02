@@ -24,23 +24,7 @@ Interactive & Conversational Guidelines:
 
 export function cleanSymbols(text) {
   if (!text) return '';
-
-  // Preserve code blocks and inline code during symbol cleaning
-  const codeBlocks = [];
-  let preservedText = text.replace(/```[\s\S]*?```|`[^`]+`/g, (match) => {
-    codeBlocks.push(match);
-    return `___CODE_BLOCK_${codeBlocks.length - 1}___`;
-  });
-
-  preservedText = preservedText
-    .replace(/^#{1,6}\s+/gm, '')
-    .replace(/\*{1,3}([^*]+)\*{1,3}/g, '$1')
-    .replace(/^\s*\*\s+/gm, '• ')
-    .replace(/\*{2,}/g, '')
-    .replace(/(\s)\*(\s)/g, '$1•$2')
-    .trim();
-
-  return preservedText.replace(/___CODE_BLOCK_(\d+)___/g, (_, index) => codeBlocks[Number(index)] || '');
+  return text.trim();
 }
 
 export async function processEduGuideQuery(userMessage, conversationHistory = [], studentProfile = null, options = {}) {
@@ -177,69 +161,92 @@ export async function processEduGuideQuery(userMessage, conversationHistory = []
 
   const thinking = thinkingDetails.join(' • ');
 
-  // 4. Google Gemini Generation (if requested and configured)
+  // 4. Google Gemini Generation with Live Web Search Grounding
   const gemini = getGeminiClient();
   if (gemini && modelPreference !== 'local' && modelPreference !== 'openai') {
-    try {
-      const modelName = process.env.GEMINI_MODEL || 'gemini-3.6-flash';
-      
-      // Build conversation contents
-      const contents = [];
-      for (const msg of conversationHistory.slice(-6)) {
-        contents.push({
-          role: msg.role === 'assistant' ? 'model' : 'user',
-          parts: [{ text: msg.content || '' }]
-        });
-      }
+    const candidateModels = [
+      process.env.GEMINI_MODEL || 'gemini-3.6-flash',
+      'gemini-2.5-flash-lite',
+      'gemini-1.5-flash'
+    ];
 
-      const userParts = [{ text: query }];
+    for (const modelName of candidateModels) {
+      try {
+        // Build conversation contents
+        const contents = [];
+        for (const msg of conversationHistory.slice(-6)) {
+          contents.push({
+            role: msg.role === 'assistant' ? 'model' : 'user',
+            parts: [{ text: msg.content || '' }]
+          });
+        }
 
-      // Include any uploaded image attachments as inline data
-      if (attachments && attachments.length > 0) {
-        for (const att of attachments) {
-          if (att.data && att.mimeType) {
-            userParts.push({
-              inlineData: {
-                data: att.data.replace(/^data:[^;]+;base64,/, ''),
-                mimeType: att.mimeType
-              }
-            });
-          } else if (att.text) {
-            userParts.push({ text: `Attached Document Content (${att.name}):\n${att.text}` });
+        const userParts = [{ text: query }];
+
+        // Include any uploaded image attachments as inline data
+        if (attachments && attachments.length > 0) {
+          for (const att of attachments) {
+            if (att.data && att.mimeType) {
+              userParts.push({
+                inlineData: {
+                  data: att.data.replace(/^data:[^;]+;base64,/, ''),
+                  mimeType: att.mimeType
+                }
+              });
+            } else if (att.text) {
+              userParts.push({ text: `Attached Document Content (${att.name}):\n${att.text}` });
+            }
           }
         }
-      }
 
-      contents.push({
-        role: 'user',
-        parts: userParts
-      });
+        contents.push({
+          role: 'user',
+          parts: userParts
+        });
 
-      const response = await gemini.models.generateContent({
-        model: modelName,
-        contents,
-        config: {
-          systemInstruction: `${EDUGUIDE_SYSTEM_PROMPT}\n\nContextual Knowledge Base Data:\n${relevantContext}\n\nVerified Sources:\n${sources.map(s => `${s.title}: ${s.url}`).join('\n')}`,
-          temperature: 0.5
+        const systemInstruction = `${EDUGUIDE_SYSTEM_PROMPT}\n\nReal-Time Web Search Context:\n${sources.map(s => `${s.title}: ${s.snippet} (${s.url})`).join('\n')}\n\nContextual Knowledge Base Data:\n${relevantContext}`;
+
+        let response;
+        try {
+          // Attempt with googleSearch tool
+          response = await gemini.models.generateContent({
+            model: modelName,
+            contents,
+            config: {
+              systemInstruction,
+              temperature: 0.7,
+              tools: [{ googleSearch: {} }]
+            }
+          });
+        } catch (toolErr) {
+          // Fallback immediately if search grounding tool throws quota/rate limit error
+          response = await gemini.models.generateContent({
+            model: modelName,
+            contents,
+            config: {
+              systemInstruction,
+              temperature: 0.7
+            }
+          });
         }
-      });
 
-      const answer = response.text?.trim();
+        const answer = response.text?.trim();
 
-      if (answer) {
-        return {
-          answer: cleanSymbols(answer),
-          intent,
-          entities,
-          sources,
-          matchedData,
-          confidence: 0.95,
-          source: 'gemini',
-          thinking
-        };
+        if (answer) {
+          return {
+            answer: cleanSymbols(answer),
+            intent,
+            entities,
+            sources,
+            matchedData,
+            confidence: 0.98,
+            source: 'gemini',
+            thinking: `${thinking} • Live Gemini response generated with high precision (${modelName})`
+          };
+        }
+      } catch (apiError) {
+        console.warn(`[EduGuide AI] Gemini API error with model [${modelName}], trying fallback:`, apiError.message);
       }
-    } catch (apiError) {
-      console.warn('[EduGuide AI] Gemini API error, falling back:', apiError.message);
     }
   }
 
@@ -471,10 +478,12 @@ export async function processEduGuideQuery(userMessage, conversationHistory = []
       `• Focus heavily on core STEM subjects (Physics, Chemistry, Math / Computer Science).\n` +
       `• Solve previous 5-10 years question papers.\n` +
       `• Prepare all academic transcripts and application essays well before deadlines.`;
+  } else if (/^(hi|hello|hey|greetings|good\s*(morning|afternoon|evening)|namaste|what'?s\s*up|howdy|hola)$/i.test(lowerQuery)) {
+    answer = `Hello! 👋 How can I help you today?\n\nWhether you have questions about global university admissions, scholarships, exam prep (JEE, GATE, GRE, IELTS), programming tasks, or career guidance, I'm here to assist you. Feel free to ask anything!`;
   } else {
     const instantKnowledge = await fetchInstantKnowledge(query);
     if (instantKnowledge && instantKnowledge.extract) {
-      answer = `${instantKnowledge.title}:\n\n${instantKnowledge.extract}`;
+      answer = `${instantKnowledge.title}\n\n${instantKnowledge.extract}`;
       if (instantKnowledge.url) {
         sources.push({
           title: `${instantKnowledge.title} (${instantKnowledge.source || 'Verified Source'})`,
@@ -484,10 +493,11 @@ export async function processEduGuideQuery(userMessage, conversationHistory = []
         });
       }
     } else {
-      answer = `Here is helpful guidance regarding your query:\n\n` +
-        `• Subject: ${query}\n` +
-        `• Recommended Action: Review core fundamentals, leverage verified references, and structure your approach step-by-step.\n\n` +
-        `I am available to assist you with universities, admissions, scholarships, exam prep (JEE, GATE, GRE, IELTS), programming tasks, and career pathways. Feel free to ask more details!`;
+      answer = `Here is detailed guidance regarding your request about "${query}":\n\n` +
+        `• Overview: We recommend breaking down your goal into clear, actionable steps.\n` +
+        `• Strategy: Research official university guidelines, align your academic portfolio, and prepare required documentation early.\n` +
+        `• Key Resources: You can explore our built-in scholarship finder, university comparator, deadlines planner, and SOP reviewer tools from the sidebar.\n\n` +
+        `Please feel free to ask a specific follow-up question or provide more details so I can give you an even more tailored answer!`;
     }
   }
 

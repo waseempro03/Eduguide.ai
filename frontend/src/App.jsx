@@ -18,6 +18,8 @@ import Sidebar from './components/Sidebar';
 import SettingsModal from './components/SettingsModal';
 import AboutModal from './components/AboutModal';
 
+import { getUserChatsApi, syncUserChatsApi } from './services/api';
+
 const AUTH_STORAGE_KEY = 'eduguide_user_auth';
 const THEME_STORAGE_KEY = 'eduguide_theme';
 const SESSIONS_STORAGE_KEY = 'eduguide_chat_sessions';
@@ -202,15 +204,37 @@ export default function App() {
     }
   }, [theme]);
 
-  // Persist sessions
+  // Load user-specific chat sessions from backend on login
+  useEffect(() => {
+    async function loadUserChats() {
+      if (currentUser && currentUser.id && !currentUser.id.startsWith('guest_')) {
+        try {
+          const res = await getUserChatsApi(currentUser.id);
+          if (res && res.success && Array.isArray(res.sessions) && res.sessions.length > 0) {
+            setSessions(res.sessions);
+            if (res.sessions[0]?.id) setActiveSessionId(res.sessions[0].id);
+          }
+        } catch (err) {
+          console.warn('Failed to load user chats from backend:', err);
+        }
+      }
+    }
+    loadUserChats();
+  }, [currentUser?.id]);
+
+  // Persist sessions locally & sync to backend for logged-in user
   useEffect(() => {
     try {
       if (Array.isArray(sessions)) {
         localStorage.setItem(SESSIONS_STORAGE_KEY, JSON.stringify(sessions));
         localStorage.setItem(ACTIVE_SESSION_KEY, activeSessionId);
+
+        if (currentUser && currentUser.id && !currentUser.id.startsWith('guest_')) {
+          syncUserChatsApi(currentUser.id, sessions).catch(() => {});
+        }
       }
     } catch (e) {}
-  }, [sessions, activeSessionId]);
+  }, [sessions, activeSessionId, currentUser?.id]);
 
   const handleThemeChange = (newTheme) => {
     setTheme(newTheme);
@@ -262,6 +286,44 @@ export default function App() {
     }
   };
 
+  const handleRenameChat = (sessionId, newTitle) => {
+    if (!newTitle || !newTitle.trim()) return;
+    setSessions(prev =>
+      prev.map(s => s.id === sessionId ? { ...s, title: newTitle.trim() } : s)
+    );
+  };
+
+  const handlePinChat = (sessionId) => {
+    setSessions(prev =>
+      prev.map(s => s.id === sessionId ? { ...s, pinned: !s.pinned } : s)
+    );
+  };
+
+  const handleShareChat = (session) => {
+    if (!session) return;
+    try {
+      const shareUrl = `${window.location.origin}/chat?id=${session.id}`;
+      navigator.clipboard.writeText(shareUrl);
+      alert(`Chat link copied to clipboard!\n${shareUrl}`);
+    } catch (e) {
+      alert(`Share Link: ${window.location.origin}/chat?id=${session.id}`);
+    }
+  };
+
+  const handleArchiveChat = (sessionId) => {
+    setSessions(prev =>
+      prev.map(s => s.id === sessionId ? { ...s, archived: true } : s)
+    );
+  };
+
+  const handleClearAllChats = () => {
+    if (window.confirm('Are you sure you want to clear all recent chats?')) {
+      const freshId = `session_${Date.now()}`;
+      setSessions([{ id: freshId, title: 'New chat', messages: [] }]);
+      setActiveSessionId(freshId);
+    }
+  };
+
   const handleLoginSuccess = (user, selectedTheme = null) => {
     if (selectedTheme) {
       handleThemeChange(selectedTheme);
@@ -299,6 +361,7 @@ export default function App() {
           <Sidebar
             isOpen={isSidebarOpen}
             onClose={() => setIsSidebarOpen(false)}
+            currentRoute={currentRoute}
             chats={sessions}
             activeChatId={activeSessionId}
             onSelectChat={(id) => {
@@ -307,6 +370,11 @@ export default function App() {
             }}
             onNewChat={handleNewChat}
             onDeleteChat={handleDeleteChat}
+            onRenameChat={handleRenameChat}
+            onPinChat={handlePinChat}
+            onShareChat={handleShareChat}
+            onArchiveChat={handleArchiveChat}
+            onClearAllChats={handleClearAllChats}
             currentUser={currentUser}
             onNavigate={navigateTo}
             onOpenLogin={() => navigateTo('login')}

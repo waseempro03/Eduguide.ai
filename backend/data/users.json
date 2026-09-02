@@ -1,51 +1,26 @@
 [
   {
-    "id": "usr_1787720881318_vy7x",
-    "name": "Mohamed Waseem",
-    "email": "waseem@example.com",
-    "password": "password123",
+    "id": "usr_test_verify",
+    "email": "test@eduguide.ai",
+    "name": "EduGuide Test User",
     "avatar": null,
     "provider": "email",
-    "createdAt": "2026-08-26T05:08:01.318Z"
+    "created_at": "2026-08-29T02:26:50.545+00:00"
   },
   {
-    "id": "usr_g_g_12345",
-    "name": "Google Student",
-    "email": "student@gmail.com",
-    "avatar": null,
-    "provider": "google",
-    "createdAt": "2026-08-26T05:08:18.098Z"
-  },
-  {
-    "id": "usr_apple_apple_12345",
-    "name": "Apple Student",
-    "email": "student@privaterelay.appleid.com",
-    "avatar": null,
-    "provider": "apple",
-    "createdAt": "2026-08-26T05:08:32.479Z"
-  },
-  {
-    "id": "usr_apple_apple_1787722682797",
-    "name": "Apple User",
-    "email": "user_1787722682797@privaterelay.appleid.com",
-    "avatar": null,
-    "provider": "apple",
-    "createdAt": "2026-08-26T05:38:02.810Z"
-  },
-  {
-    "id": "usr_apple_apple_1787722846941",
-    "name": "Mohamed Waseem",
-    "email": "mohamed.waseem@privaterelay.appleid.com",
-    "avatar": null,
-    "provider": "apple",
-    "createdAt": "2026-08-26T05:40:46.955Z"
-  },
-  {
-    "id": "usr_g_google_1787724296131",
-    "name": "Mohamed Waseem",
+    "id": "usr_g_google_1788222926104",
     "email": "mohamed.waseem@gmail.com",
+    "name": "Mohamed Waseem",
     "avatar": null,
     "provider": "google",
-    "createdAt": "2026-08-26T06:04:56.139Z"
+    "created_at": "2026-09-01T00:35:26.752+00:00"
+  },
+  {
+    "id": "usr_g_google_1788223705142",
+    "name": "Wiz Student",
+    "email": "student.wiz@gmail.com",
+    "avatar": null,
+    "provider": "google",
+    "createdAt": "2026-09-01T00:48:25.959Z"
   }
 ]

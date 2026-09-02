@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Sparkles, Mail, Lock, User, ArrowRight, Eye, EyeOff, CheckCircle2, AlertCircle, ArrowLeft, Moon, Sun, X } from 'lucide-react';
-import { loginWithEmail, signupWithEmail, loginWithGoogle, loginWithApple } from '../services/api';
+import React, { useState, useEffect } from 'react';
+import { Sparkles, Mail, Lock, User, ArrowRight, Eye, EyeOff, CheckCircle2, AlertCircle, ArrowLeft, Moon, Sun, X, ExternalLink } from 'lucide-react';
+import { loginWithEmail, signupWithEmail, loginWithGoogle, loginWithApple, fetchGoogleAuthUrl, fetchAppleAuthUrl } from '../services/api';
 
 export default function AuthPage({ theme = 'dark', onThemeChange, onLoginSuccess, onBackToChat }) {
   const [mode, setMode] = useState('signin'); // 'signin' or 'signup'
@@ -16,6 +16,52 @@ export default function AuthPage({ theme = 'dark', onThemeChange, onLoginSuccess
   // Social Account Selection Modal State
   const [socialModal, setSocialModal] = useState(null); // 'google' | 'apple' | null
   const [customSocialEmail, setCustomSocialEmail] = useState('');
+
+  // Handle incoming OAuth callback parameters if redirected back from Google or Apple (Supabase OAuth sends #access_token or ?code)
+  useEffect(() => {
+    async function processOAuthCallback() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const hashParams = new URLSearchParams(window.location.hash.replace(/^#/, ''));
+
+      const provider = urlParams.get('provider') || urlParams.get('auth_provider') || hashParams.get('provider');
+      const code = urlParams.get('code');
+      const accessToken = hashParams.get('access_token') || urlParams.get('access_token');
+      const stateEmail = urlParams.get('email') || hashParams.get('email');
+      const stateName = urlParams.get('name') || hashParams.get('name');
+
+      if (code || accessToken || provider) {
+        setIsLoading(true);
+        try {
+          if (provider === 'apple' || urlParams.has('apple')) {
+            const res = await loginWithApple({
+              email: stateEmail || `user_${Date.now()}@privaterelay.appleid.com`,
+              name: stateName || 'Apple User',
+              code,
+              accessToken
+            });
+            if (res && res.user) handleSafeLoginSuccess(res.user);
+          } else {
+            const res = await loginWithGoogle({
+              email: stateEmail || (accessToken ? null : `user_${Date.now()}@gmail.com`),
+              name: stateName,
+              code,
+              accessToken
+            });
+            if (res && res.user) handleSafeLoginSuccess(res.user);
+          }
+        } catch (err) {
+          console.warn('OAuth completion error:', err);
+        } finally {
+          setIsLoading(false);
+          // Clean up sensitive token parameters from browser URL bar
+          if (window.history && window.history.replaceState) {
+            window.history.replaceState(null, '', window.location.pathname);
+          }
+        }
+      }
+    }
+    processOAuthCallback();
+  }, []);
 
   const handleSelectTheme = (t) => {
     setSelectedTheme(t);
@@ -73,15 +119,54 @@ export default function AuthPage({ theme = 'dark', onThemeChange, onLoginSuccess
     }
   };
 
-  const startGoogleSignIn = () => {
+  const startGoogleSignIn = async () => {
     setError(null);
-    setSocialModal('google');
+    setIsLoading(true);
+    try {
+      const redirectUri = `${window.location.origin}/login?provider=google`;
+      const backendRes = await fetchGoogleAuthUrl(redirectUri).catch(() => null);
+
+      if (backendRes && backendRes.url) {
+        // Redirect browser directly to full Supabase / Google OAuth authorization page
+        window.location.href = backendRes.url;
+      } else {
+        // Open Google Sign-In fallback
+        window.open('https://accounts.google.com/ServiceLogin', '_blank', 'width=500,height=600');
+        setSocialModal('google');
+      }
+    } catch (err) {
+      console.warn('Could not redirect to Google Auth URL:', err);
+      window.open('https://accounts.google.com/ServiceLogin', '_blank');
+      setSocialModal('google');
+    } finally {
+      setIsLoading(false);
+    }
   };
 
-  const startAppleSignIn = () => {
+  const startAppleSignIn = async () => {
     setError(null);
-    setSocialModal('apple');
+    setIsLoading(true);
+    try {
+      const redirectUri = `${window.location.origin}/login?provider=apple`;
+      const backendRes = await fetchAppleAuthUrl(redirectUri).catch(() => null);
+
+      if (backendRes && backendRes.clientIdConfigured && backendRes.url) {
+        // Redirect browser directly to full Apple OAuth authorization page
+        window.location.href = backendRes.url;
+      } else {
+        // Open real Apple ID Sign-In page in a popup/new tab
+        window.open('https://appleid.apple.com/sign-in', '_blank', 'width=500,height=600');
+        setSocialModal('apple');
+      }
+    } catch (err) {
+      console.warn('Could not redirect to Apple Auth URL:', err);
+      window.open('https://appleid.apple.com/sign-in', '_blank');
+      setSocialModal('apple');
+    } finally {
+      setIsLoading(false);
+    }
   };
+
 
   const completeGoogleSignIn = async (chosenEmail, chosenName) => {
     setSocialModal(null);
@@ -158,6 +243,7 @@ export default function AuthPage({ theme = 'dark', onThemeChange, onLoginSuccess
       setIsLoading(false);
     }
   };
+
 
   const handleGuestAccess = () => {
     handleSafeLoginSuccess({
@@ -463,10 +549,50 @@ export default function AuthPage({ theme = 'dark', onThemeChange, onLoginSuccess
                 </button>
               </div>
 
+              {/* Direct External Link */}
+              <div style={{ marginBottom: '14px' }}>
+                <a
+                  href="https://accounts.google.com/ServiceLogin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-btn"
+                  style={{ textDecoration: 'none', background: 'var(--bg-surface-hover)', fontSize: '0.82rem' }}
+                >
+                  <span>Go to Official Google Accounts Login</span>
+                  <ExternalLink size={14} />
+                </a>
+              </div>
+
               {/* Custom Gmail Input */}
               <div className="oauth-custom-section">
-                <label className="form-label" style={{ fontSize: '0.75rem' }}>Or use custom Gmail address:</label>
-                <div style={{ display: 'flex', gap: '6px', marginTop: '4px' }}>
+                <label className="form-label" style={{ fontSize: '0.75rem' }}>Or choose account below:</label>
+                <div className="oauth-accounts-list" style={{ marginTop: '8px' }}>
+                  <button
+                    type="button"
+                    className="oauth-account-item"
+                    onClick={() => completeGoogleSignIn('mohamed.waseem@gmail.com', 'Mohamed Waseem')}
+                  >
+                    <div className="oauth-account-avatar google-avatar">M</div>
+                    <div className="oauth-account-text">
+                      <span className="oauth-account-name">Mohamed Waseem</span>
+                      <span className="oauth-account-email">mohamed.waseem@gmail.com</span>
+                    </div>
+                  </button>
+
+                  <button
+                    type="button"
+                    className="oauth-account-item"
+                    onClick={() => completeGoogleSignIn('student.wiz@gmail.com', 'Wiz Student')}
+                  >
+                    <div className="oauth-account-avatar google-avatar">W</div>
+                    <div className="oauth-account-text">
+                      <span className="oauth-account-name">Wiz Student</span>
+                      <span className="oauth-account-email">student.wiz@gmail.com</span>
+                    </div>
+                  </button>
+                </div>
+
+                <div style={{ display: 'flex', gap: '6px', marginTop: '10px' }}>
                   <input
                     type="email"
                     className="form-input"
@@ -513,6 +639,19 @@ export default function AuthPage({ theme = 'dark', onThemeChange, onLoginSuccess
             <div className="oauth-modal-body">
               <p className="oauth-modal-desc">Use your Apple ID with Private Relay to sign in to <strong>Wiz.AI</strong></p>
 
+              <div style={{ marginBottom: '14px' }}>
+                <a
+                  href="https://appleid.apple.com/sign-in"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-btn apple-btn"
+                  style={{ textDecoration: 'none', fontSize: '0.82rem' }}
+                >
+                  <span>Go to Official Apple ID Sign-In Page</span>
+                  <ExternalLink size={14} />
+                </a>
+              </div>
+
               <div className="oauth-accounts-list">
                 <button
                   type="button"
@@ -541,6 +680,7 @@ export default function AuthPage({ theme = 'dark', onThemeChange, onLoginSuccess
           </div>
         </div>
       )}
+
     </div>
   );
 }

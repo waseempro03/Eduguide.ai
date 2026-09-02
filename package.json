@@ -1,13 +1,27 @@
 {
   "name": "eduguide-ai-assistant",
   "version": "2.0.0",
-  "description": "EduGuide AI — Global Education & Career Assistant with Intent Classification, 100-Point Scholarship Matching, Source Citations & Dual-Mode DB",
+  "description": "EduGuide AI — Global Education & Career Assistant",
+  "type": "module",
   "scripts": {
     "dev": "npm run dev:backend & npm run dev:frontend",
     "dev:backend": "cd backend && npm run dev",
     "dev:frontend": "cd frontend && npm run dev",
     "test": "cd backend && npm test",
-    "build": "cd frontend && npm run build"
+    "build": "cd frontend && npm run build",
+    "postinstall": "cd frontend && npm install --include=dev && cd ../backend && npm install"
+  },
+  "dependencies": {
+    "@google/genai": "^2.19.0",
+    "@google/generative-ai": "^0.24.1",
+    "@supabase/supabase-js": "^2.109.0",
+    "axios": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.24.4",
+    "openai": "^6.49.0",
+    "ws": "^8.21.3"
   },
   "keywords": [
     "ai",
@@ -15,12 +29,8 @@
     "scholarships",
     "universities",
     "placements",
-    "nlp",
-    "intent-classification",
     "react",
-    "express",
-    "mongodb",
-    "openai"
+    "express"
   ],
   "author": "EduGuide AI Team",
   "license": "MIT"

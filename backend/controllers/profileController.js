@@ -1,7 +1,20 @@
 import { readJson, writeJson } from '../utils/storage.js';
+import { getSupabaseClient } from '../config/supabase.js';
 
 export async function getProfile(req, res) {
   try {
+    const supabase = getSupabaseClient();
+    if (supabase) {
+      try {
+        const { data, error } = await supabase.from('student_profiles').select('*').limit(1).maybeSingle();
+        if (!error && data) {
+          return res.json({ success: true, profile: data });
+        }
+      } catch (e) {
+        console.warn('[Supabase] Error reading profile from Supabase:', e.message);
+      }
+    }
+
     const profile = await readJson('profile.json', {
       nationality: 'India',
       educationLevel: 'Undergraduate',
@@ -27,6 +40,23 @@ export async function getProfile(req, res) {
 export async function saveProfile(req, res) {
   try {
     const profileData = req.body;
+
+    const supabase = getSupabaseClient();
+    if (supabase) {
+      try {
+        await supabase.from('student_profiles').upsert({
+          user_id: profileData.userId || 'default_user',
+          degree: profileData.degree,
+          field: profileData.field,
+          cgpa: profileData.cgpa,
+          nationality: profileData.nationality,
+          updated_at: new Date().toISOString()
+        });
+      } catch (e) {
+        console.warn('[Supabase] Error saving profile to Supabase:', e.message);
+      }
+    }
+
     await writeJson('profile.json', profileData);
     res.json({
       success: true,

@@ -1,6 +1,222 @@
 {
   "queries": [
     {
+      "messageId": "msg_1788223729052_bjsp4a",
+      "query": "1",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.98,
+      "source": "gemini",
+      "timestamp": "2026-09-01T00:48:59.536Z"
+    },
+    {
+      "messageId": "msg_1788222768178_eg01ga",
+      "query": "tell abour crescent university chennai",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.98,
+      "source": "gemini",
+      "timestamp": "2026-09-01T00:33:25.321Z"
+    },
+    {
+      "messageId": "msg_1788222737838_4agn6v",
+      "query": "hlo",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.98,
+      "source": "gemini",
+      "timestamp": "2026-09-01T00:32:20.812Z"
+    },
+    {
+      "messageId": "msg_1788222717549_scsu81",
+      "query": "hi",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.98,
+      "source": "gemini",
+      "timestamp": "2026-09-01T00:32:01.559Z"
+    },
+    {
+      "messageId": "msg_1787970450094_v386y0",
+      "query": "hi",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.98,
+      "source": "gemini",
+      "timestamp": "2026-08-29T02:27:34.488Z"
+    },
+    {
+      "messageId": "msg_1787968590276_xeqn8y",
+      "query": "tell about vit university",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.98,
+      "source": "gemini",
+      "timestamp": "2026-08-29T01:56:47.745Z"
+    },
+    {
+      "messageId": "msg_1787968509180_n399a5",
+      "query": "hi",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.98,
+      "source": "gemini",
+      "timestamp": "2026-08-29T01:55:15.079Z"
+    },
+    {
+      "messageId": "msg_1787968473587_pyygfd",
+      "query": "ai",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.98,
+      "source": "gemini",
+      "timestamp": "2026-08-29T01:54:50.193Z"
+    },
+    {
+      "messageId": "msg_1787968110203_nzfgdm",
+      "query": "engineering",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.98,
+      "source": "gemini",
+      "timestamp": "2026-08-29T01:48:56.502Z"
+    },
+    {
+      "messageId": "msg_1787967787276_jdxm1a",
+      "query": "i want to know about the best colleges in chennai",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.98,
+      "source": "gemini",
+      "timestamp": "2026-08-29T01:43:24.235Z"
+    },
+    {
+      "messageId": "msg_1787967746551_eoi0sq",
+      "query": "hi",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.98,
+      "source": "gemini",
+      "timestamp": "2026-08-29T01:42:30.869Z"
+    },
+    {
+      "messageId": "msg_1787967703466_w2ul9x",
+      "query": "What are the admission requirements for Postgraduate programs in Germany?",
+      "intent": "ADMISSION",
+      "matched": true,
+      "confidence": 0.98,
+      "source": "gemini",
+      "timestamp": "2026-08-29T01:41:59.616Z"
+    },
+    {
+      "messageId": "msg_1787967689707_qcd6ct",
+      "query": "hi",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.98,
+      "source": "gemini",
+      "timestamp": "2026-08-29T01:41:36.446Z"
+    },
+    {
+      "messageId": "msg_1787967255208_u8v1jj",
+      "query": "hi",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-29T01:34:16.693Z"
+    },
+    {
+      "messageId": "msg_1787967234524_pis0f4",
+      "query": "hi",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-29T01:33:56.458Z"
+    },
+    {
+      "messageId": "msg_1787967216454_y5n5am",
+      "query": "What scholarships are available for computer science students?",
+      "intent": "SCHOLARSHIP",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-29T01:33:37.374Z"
+    },
+    {
+      "messageId": "msg_1787896449588_xwo6h6",
+      "query": "in chennai",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-28T05:54:12.184Z"
+    },
+    {
+      "messageId": "msg_1787896418888_3u9m4a",
+      "query": "what is crescent university",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-28T05:53:52.824Z"
+    },
+    {
+      "messageId": "msg_1787896393103_dr4rei",
+      "query": "hello",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-28T05:53:14.105Z"
+    },
+    {
+      "messageId": "msg_1787896342296_8p1zu4",
+      "query": "hi",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.85,
+      "source": "eduguide_nlp",
+      "timestamp": "2026-08-28T05:52:51.663Z"
+    },
+    {
+      "messageId": "msg_1787878034495_exfgpu",
+      "query": "dhu[",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-28T00:47:17.457Z"
+    },
+    {
+      "messageId": "msg_1787877816677_9y36n0",
+      "query": "hi",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-28T00:43:39.242Z"
+    },
+    {
+      "messageId": "msg_1787877026172_jevp6v",
+      "query": "hi",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-28T00:30:29.119Z"
+    },
+    {
+      "messageId": "msg_1787822041594_3xwjz8",
+      "query": "halo",
+      "intent": "GENERAL",
+      "matched": true,
+      "confidence": 0.95,
+      "source": "gemini",
+      "timestamp": "2026-08-27T09:14:12.504Z"
+    },
+    {
       "messageId": "msg_1787806289834_mdnf3n",
       "query": "hi",
       "intent": "GENERAL",

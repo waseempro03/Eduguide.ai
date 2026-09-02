@@ -69,3 +69,74 @@ export async function handleChatMessage(req, res) {
     });
   }
 }
+
+import { getSupabaseClient } from '../config/supabase.js';
+
+/**
+ * Retrieve saved chat sessions for a specific user ID
+ */
+export async function getUserChats(req, res) {
+  try {
+    const { userId } = req.params;
+    if (!userId) {
+      return res.status(400).json({ error: 'User ID is required.' });
+    }
+
+    const supabase = getSupabaseClient();
+    if (supabase) {
+      try {
+        const { data, error } = await supabase
+          .from('user_chats')
+          .select('sessions')
+          .eq('user_id', userId)
+          .maybeSingle();
+
+        if (!error && data && Array.isArray(data.sessions)) {
+          return res.json({ success: true, sessions: data.sessions });
+        }
+      } catch (e) {
+        console.warn('[Supabase] Error reading user_chats from Supabase:', e.message);
+      }
+    }
+
+    const allChats = await readJson('user_chats.json', {});
+    const userSessions = allChats[userId] || [];
+    return res.json({ success: true, sessions: userSessions });
+  } catch (error) {
+    console.error('[ChatController] Error fetching user chats:', error);
+    return res.status(500).json({ error: 'Failed to fetch user chat sessions.' });
+  }
+}
+
+/**
+ * Save / Sync chat sessions for a specific user ID
+ */
+export async function saveUserChats(req, res) {
+  try {
+    const { userId, sessions } = req.body;
+    if (!userId || !Array.isArray(sessions)) {
+      return res.status(400).json({ error: 'User ID and sessions array are required.' });
+    }
+
+    const supabase = getSupabaseClient();
+    if (supabase) {
+      try {
+        await supabase
+          .from('user_chats')
+          .upsert({ user_id: userId, sessions, updated_at: new Date().toISOString() }, { onConflict: 'user_id' });
+      } catch (e) {
+        console.warn('[Supabase] Error writing user_chats to Supabase:', e.message);
+      }
+    }
+
+    const allChats = await readJson('user_chats.json', {});
+    allChats[userId] = sessions;
+    await writeJson('user_chats.json', allChats);
+
+    return res.json({ success: true, message: 'User chat sessions synced successfully.' });
+  } catch (error) {
+    console.error('[ChatController] Error saving user chats:', error);
+    return res.status(500).json({ error: 'Failed to save user chat sessions.' });
+  }
+}
+

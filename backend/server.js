@@ -7,6 +7,7 @@ import { fileURLToPath } from 'url';
 import { connectDB, isMongoActive } from './config/db.js';
 import { isOpenAIConfigured } from './config/openai.js';
 import { isGeminiConfigured } from './config/gemini.js';
+import { isSupabaseConfigured } from './config/supabase.js';
 
 import chatRoutes from './routes/chatRoutes.js';
 import scholarshipRoutes from './routes/scholarshipRoutes.js';
@@ -97,20 +98,24 @@ app.use((err, req, res, next) => {
 async function startServer() {
   try {
     await connectDB();
-    app.listen(PORT, () => {
-      console.log(`====================================================`);
-      console.log(`🌍 EduGuide AI Backend Server running!`);
-      console.log(`📍 Local Server: http://localhost:${PORT}`);
-      console.log(`📊 Health check: http://localhost:${PORT}/api/health`);
-      const aiStatus = isGeminiConfigured() ? 'Google Gemini AI Active' : isOpenAIConfigured() ? 'OpenAI GPT Active' : 'Local EduGuide Synthesizer Active';
-      console.log(`🤖 AI Engine: ${aiStatus}`);
-      console.log(`💾 Storage: ${isMongoActive() ? 'MongoDB Connected' : 'Local In-Memory/JSON Storage Active'}`);
-      console.log(`====================================================`);
-    });
+    if (!process.env.VERCEL) {
+      app.listen(PORT, () => {
+        console.log(`====================================================`);
+        console.log(`🌍 EduGuide AI Backend Server running!`);
+        console.log(`📍 Local Server: http://localhost:${PORT}`);
+        console.log(`📊 Health check: http://localhost:${PORT}/api/health`);
+        const aiStatus = isGeminiConfigured() ? 'Google Gemini AI Active' : isOpenAIConfigured() ? 'OpenAI GPT Active' : 'Local EduGuide Synthesizer Active';
+        const dbStatus = isSupabaseConfigured() ? 'Supabase PostgreSQL Connected' : isMongoActive() ? 'MongoDB Connected' : 'Local In-Memory/JSON Storage Active';
+        console.log(`🤖 AI Engine: ${aiStatus}`);
+        console.log(`💾 Storage: ${dbStatus}`);
+        console.log(`====================================================`);
+      });
+    }
   } catch (error) {
     console.error('Failed to start server:', error);
-    process.exit(1);
   }
 }
 
 startServer();
+
+export default app;

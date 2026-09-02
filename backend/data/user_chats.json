@@ -1,0 +1,1951 @@
+{
+  "usr_apple_apple_1787722846941": [
+    {
+      "id": "session_1787968506250",
+      "title": "hi",
+      "messages": [
+        {
+          "id": "usr_1787968509173",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-29T01:55:09.173Z"
+        },
+        {
+          "id": "bot_1787968515083",
+          "sender": "bot",
+          "messageId": "msg_1787968509180_n399a5",
+          "text": "Hello there! 👋 \n\nHow can I help you today? Whether you need assistance with studying abroad, programming, writing, math, or just want to chat about a topic, I'm here and ready to help! What's on your mind?",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "hi",
+          "timestamp": "2026-08-29T01:55:15.083Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787968590269",
+          "sender": "user",
+          "text": "tell about vit university",
+          "attachments": [],
+          "timestamp": "2026-08-29T01:56:30.269Z"
+        },
+        {
+          "id": "bot_1787968607750",
+          "sender": "bot",
+          "messageId": "msg_1787968590276_xeqn8y",
+          "text": "**Vellore Institute of Technology (VIT)** is one of India’s premier private universities, highly renowned for engineering, technology, management, and applied sciences. Founded in 1984 by Dr. G. Viswanathan as Vellore Engineering College, it gained Deemed University status in 2001 and has grown into a global educational hub.\n\nHere is a comprehensive overview of VIT University across its campuses, admissions, academics, and placements:\n\n---\n\n### 1. 🏛️ Campuses\nVIT operates across four major campuses in India:\n* **VIT Vellore (Main Campus, Tamil Nadu):** The oldest, largest, and most prestigious campus with world-class facilities and a massive international student body.\n* **VIT Chennai (Tamil Nadu):** A modern, fast-growing eco-friendly campus close to IT hubs.\n* **VIT AP (Amaravati, Andhra Pradesh):** Known for specialized tech courses and futuristic infrastructure.\n* **VIT Bhopal (Madhya Pradesh):** Focused on AI, Robotics, and modern interdisciplinary fields with a unique interactive teaching style.\n\n---\n\n### 2. 🌟 Accreditation & Rankings\n* **NIRF Ranking:** Consistently ranked among the **Top 10–12 Engineering Institutes** in India (including IITs and NITs) and ranked **#1 among private engineering institutions**.\n* **NAAC Accreditation:** Awarded the highest **A++ grade** by the National Assessment and Accreditation Council (NAAC).\n* **Global Recognition:** Ranked in the **QS World University Rankings** and **Times Higher Education (THE)** World University Rankings.\n\n---\n\n### 3. 🎓 Popular Academic Programs\nVIT offers Undergraduate (UG), Postgraduate (PG), and Doctoral (Ph.D.) degrees.\n\n* **B.Tech Programs:** Computer Science & Engineering (CSE) with specializations (AI, Data Science, Cyber Security, Cloud Computing), Electronics & Communication (ECE), Electrical & Electronics (EEE), Mechanical, Biotechnology, Civil, etc.\n* **Other UG Courses:** BCA, B.Sc (Computer Science, Multimedia, Biotech), B.Arch, BBA, B.Com, Integrated M.Sc.\n* **PG Courses:** M.Tech, MCA, MBA, M.Sc.\n\n---\n\n### 4. 📚 Unique Academic System: FFCS\nVIT uses the **FFCS (Fully Flexible Credit System)**, which allows students to:\n* Design their own timetable and course schedule.\n* Choose their preferred faculty members for each course.\n* Select electives outside their major department (e.g., a CSE student can take music or psychology courses).\n* Pace their learning according to their individual academic goals.\n\n---\n\n### 5. 🎯 Admission Process\nAdmission to engineering and professional degree programs is purely merit-based:\n\n* **B.Tech Admissions:** Conducted through **VITEEE** (VIT Engineering Entrance Examination), an all-India computer-based test held annually in April. Admission categories (Category 1 to 5) determine the tuition fee structure based on your VITEEE rank.\n* **M.Tech / MCA Admissions:** Through **VITMEE** (VIT Master’s Entrance Examination) or GATE scores.\n* **MBA Admissions:** Based on CAT / MAT / XAT / NMAT / CMAT scores followed by a personal interview.\n* **Direct Admission:** Offered to central and state board toppers (Rank 1 holders).\n\n---\n\n### 6. 💼 Placements & Career Opportunities\nVIT holds multiple records in the **Limca Book of Records** for maximum placement offers from top-tier companies.\n\n* **Placement Tiers:**\n  * **Super Dream Offers:** Packages above ₹10 LPA (e.g., Microsoft, Amazon, Google, PayPal, De Shaw, WorkIndia).\n  * **Dream Offers:** Packages between ₹6 LPA and ₹10 LPA.\n  * **Regular Offers:** Packages up to ₹6 LPA (IT services giants like TCS, Wipro, Cognizant, Infosys).\n* **Highest Package:** Has reached over **₹1.02 Crore/year** (International) and **₹50+ LPA** (National).\n* **Average Package:** Approximately **₹8 to ₹9 LPA** for B.Tech CSE graduates.\n\n---\n\n### 7. 🎉 Campus Life & Culture\nCampus life at VIT is vibrant, cosmopolitan, and energetic:\n* **Riviera:** One of India’s largest international sports and cultural fests, drawing thousands of college students nationwide.\n* **graVITas:** An annual international tech-fest featuring hackathons, robotics challenges, coding competitions, and workshops.\n* **Clubs & Chapters:** Over 100+ student-led clubs ranging from IEEE, ACM, and coding organizations to drama, music, dance, and gaming societies.\n\n---\n\n### Would you like to know more about:\n1. **VITEEE Exam Pattern & Preparation Strategy?**\n2. **Fee structure and Category breakdown (Cat 1 to Cat 5)?**\n3. **Comparison between VIT Vellore vs. VIT Chennai?**\n4. **Cutoff ranks for specific branches (like CSE/AI)?** \n\nLet me know what you'd like to explore next!",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "tell about vit university",
+          "timestamp": "2026-08-29T01:56:47.750Z",
+          "feedback": null
+        }
+      ]
+    },
+    {
+      "id": "session_1787879043024",
+      "title": "hi",
+      "messages": [
+        {
+          "id": "usr_1787896342287",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-28T05:52:22.287Z"
+        },
+        {
+          "id": "bot_1787896371669",
+          "sender": "bot",
+          "messageId": "msg_1787896342296_8p1zu4",
+          "text": "Here is helpful guidance regarding your query:\n\n• Subject: hi\n• Recommended Action: Review core fundamentals, leverage verified references, and structure your approach step-by-step.\n\nI am available to assist you with universities, admissions, scholarships, exam prep (JEE, GATE, GRE, IELTS), programming tasks, and career pathways. Feel free to ask more details!",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "eduguide_nlp",
+          "matchedData": null,
+          "matched": true,
+          "thinking": null,
+          "userQuery": "hi",
+          "timestamp": "2026-08-28T05:52:51.669Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787896393095",
+          "sender": "user",
+          "text": "hello",
+          "attachments": [],
+          "timestamp": "2026-08-28T05:53:13.095Z"
+        },
+        {
+          "id": "bot_1787896394110",
+          "sender": "bot",
+          "messageId": "msg_1787896393103_dr4rei",
+          "text": "Hello:\n\nHello is a salutation or greeting in the English language. It is first attested in writing from 1826.",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            },
+            {
+              "title": "Hello (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Hello",
+              "domain": "Wikipedia",
+              "snippet": "Hello is a salutation or greeting in the English language. It is first attested in writing from 1826...."
+            }
+          ],
+          "source": "eduguide_nlp",
+          "matchedData": null,
+          "matched": true,
+          "thinking": null,
+          "userQuery": "hello",
+          "timestamp": "2026-08-28T05:53:14.110Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787896418880",
+          "sender": "user",
+          "text": "what is crescent university",
+          "attachments": [],
+          "timestamp": "2026-08-28T05:53:38.880Z"
+        },
+        {
+          "id": "bot_1787896432828",
+          "sender": "bot",
+          "messageId": "msg_1787896418888_3u9m4a",
+          "text": "Crescent University:\n\nCrescent University is located in Abeokuta, Ogun State, Nigeria. It is a private university established by Nigerian Judge Bola Ajibola under the banner of the Islamic Mission for Africa. It has the following colleges: The Bola Ajibola College of Law, The College of Environmental Sciences, The College of Information and Communication Technology, The College of Natural and Applied Sciences, The College of Arts, Social and Management Sciences and The College of Health Sciences.",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            },
+            {
+              "title": "Crescent University (DuckDuckGo Instant Knowledge)",
+              "url": "https://en.wikipedia.org/wiki/Crescent_University",
+              "domain": "DuckDuckGo Instant Knowledge",
+              "snippet": "Crescent University is located in Abeokuta, Ogun State, Nigeria. It is a private university established by Nigerian Judge Bola Ajibola under..."
+            }
+          ],
+          "source": "eduguide_nlp",
+          "matchedData": null,
+          "matched": true,
+          "thinking": null,
+          "userQuery": "what is crescent university",
+          "timestamp": "2026-08-28T05:53:52.828Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787896449581",
+          "sender": "user",
+          "text": "in chennai",
+          "attachments": [],
+          "timestamp": "2026-08-28T05:54:09.581Z"
+        },
+        {
+          "id": "bot_1787896452189",
+          "sender": "bot",
+          "messageId": "msg_1787896449588_xwo6h6",
+          "text": "Overview of Machine Learning & AI:\n\nMachine Learning (ML) is a subfield of Artificial Intelligence that focuses on developing algorithms that allow computers to learn from data and make predictions or decisions without being explicitly programmed.\n\nCore Pillars of Machine Learning:\n1. Supervised Learning: Learning with labeled data (e.g., Regression, Classification - Linear Models, Random Forest, XGBoost).\n2. Unsupervised Learning: Finding hidden patterns without labels (e.g., K-Means Clustering, PCA).\n3. Reinforcement Learning: Learning through trial, error, and reward signals (e.g., AlphaGo, Robotics).\n4. Deep Learning: Neural network architectures with multiple layers (e.g., CNNs for vision, Transformers & LLMs for NLP).\n\nRecommended Learning Roadmap:\n• Mathematics: Linear Algebra, Probability, Calculus, Optimization.\n• Python Libraries: NumPy, Pandas, Scikit-Learn, PyTorch, TensorFlow.\n• Real Projects: Kaggle competitions, GitHub open-source repositories, and end-to-end model deployment.",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "eduguide_nlp",
+          "matchedData": null,
+          "matched": true,
+          "thinking": null,
+          "userQuery": "in chennai",
+          "timestamp": "2026-08-28T05:54:12.189Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787967116598",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-29T01:31:56.598Z"
+        },
+        {
+          "id": "bot_1787967116689",
+          "sender": "bot",
+          "text": "I experienced a temporary connection issue. Please check your network or try asking again.",
+          "isFallback": true,
+          "userQuery": "hi",
+          "timestamp": "2026-08-29T01:31:56.689Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787967134614",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-29T01:32:14.614Z"
+        },
+        {
+          "id": "bot_1787967134630",
+          "sender": "bot",
+          "text": "I experienced a temporary connection issue. Please check your network or try asking again.",
+          "isFallback": true,
+          "userQuery": "hi",
+          "timestamp": "2026-08-29T01:32:14.630Z",
+          "feedback": null
+        }
+      ]
+    }
+  ],
+  "usr_test_123": [
+    {
+      "id": "session_1",
+      "title": "Germany Admissions",
+      "messages": [
+        {
+          "id": "m1",
+          "sender": "user",
+          "text": "Tell me about TUM admissions"
+        }
+      ]
+    }
+  ],
+  "usr_g_google_1787724296131": [
+    {
+      "id": "session_1787968506250",
+      "title": "hi",
+      "messages": [
+        {
+          "id": "usr_1787968509173",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-29T01:55:09.173Z"
+        },
+        {
+          "id": "bot_1787968515083",
+          "sender": "bot",
+          "messageId": "msg_1787968509180_n399a5",
+          "text": "Hello there! 👋 \n\nHow can I help you today? Whether you need assistance with studying abroad, programming, writing, math, or just want to chat about a topic, I'm here and ready to help! What's on your mind?",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "hi",
+          "timestamp": "2026-08-29T01:55:15.083Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787968590269",
+          "sender": "user",
+          "text": "tell about vit university",
+          "attachments": [],
+          "timestamp": "2026-08-29T01:56:30.269Z"
+        },
+        {
+          "id": "bot_1787968607750",
+          "sender": "bot",
+          "messageId": "msg_1787968590276_xeqn8y",
+          "text": "**Vellore Institute of Technology (VIT)** is one of India’s premier private universities, highly renowned for engineering, technology, management, and applied sciences. Founded in 1984 by Dr. G. Viswanathan as Vellore Engineering College, it gained Deemed University status in 2001 and has grown into a global educational hub.\n\nHere is a comprehensive overview of VIT University across its campuses, admissions, academics, and placements:\n\n---\n\n### 1. 🏛️ Campuses\nVIT operates across four major campuses in India:\n* **VIT Vellore (Main Campus, Tamil Nadu):** The oldest, largest, and most prestigious campus with world-class facilities and a massive international student body.\n* **VIT Chennai (Tamil Nadu):** A modern, fast-growing eco-friendly campus close to IT hubs.\n* **VIT AP (Amaravati, Andhra Pradesh):** Known for specialized tech courses and futuristic infrastructure.\n* **VIT Bhopal (Madhya Pradesh):** Focused on AI, Robotics, and modern interdisciplinary fields with a unique interactive teaching style.\n\n---\n\n### 2. 🌟 Accreditation & Rankings\n* **NIRF Ranking:** Consistently ranked among the **Top 10–12 Engineering Institutes** in India (including IITs and NITs) and ranked **#1 among private engineering institutions**.\n* **NAAC Accreditation:** Awarded the highest **A++ grade** by the National Assessment and Accreditation Council (NAAC).\n* **Global Recognition:** Ranked in the **QS World University Rankings** and **Times Higher Education (THE)** World University Rankings.\n\n---\n\n### 3. 🎓 Popular Academic Programs\nVIT offers Undergraduate (UG), Postgraduate (PG), and Doctoral (Ph.D.) degrees.\n\n* **B.Tech Programs:** Computer Science & Engineering (CSE) with specializations (AI, Data Science, Cyber Security, Cloud Computing), Electronics & Communication (ECE), Electrical & Electronics (EEE), Mechanical, Biotechnology, Civil, etc.\n* **Other UG Courses:** BCA, B.Sc (Computer Science, Multimedia, Biotech), B.Arch, BBA, B.Com, Integrated M.Sc.\n* **PG Courses:** M.Tech, MCA, MBA, M.Sc.\n\n---\n\n### 4. 📚 Unique Academic System: FFCS\nVIT uses the **FFCS (Fully Flexible Credit System)**, which allows students to:\n* Design their own timetable and course schedule.\n* Choose their preferred faculty members for each course.\n* Select electives outside their major department (e.g., a CSE student can take music or psychology courses).\n* Pace their learning according to their individual academic goals.\n\n---\n\n### 5. 🎯 Admission Process\nAdmission to engineering and professional degree programs is purely merit-based:\n\n* **B.Tech Admissions:** Conducted through **VITEEE** (VIT Engineering Entrance Examination), an all-India computer-based test held annually in April. Admission categories (Category 1 to 5) determine the tuition fee structure based on your VITEEE rank.\n* **M.Tech / MCA Admissions:** Through **VITMEE** (VIT Master’s Entrance Examination) or GATE scores.\n* **MBA Admissions:** Based on CAT / MAT / XAT / NMAT / CMAT scores followed by a personal interview.\n* **Direct Admission:** Offered to central and state board toppers (Rank 1 holders).\n\n---\n\n### 6. 💼 Placements & Career Opportunities\nVIT holds multiple records in the **Limca Book of Records** for maximum placement offers from top-tier companies.\n\n* **Placement Tiers:**\n  * **Super Dream Offers:** Packages above ₹10 LPA (e.g., Microsoft, Amazon, Google, PayPal, De Shaw, WorkIndia).\n  * **Dream Offers:** Packages between ₹6 LPA and ₹10 LPA.\n  * **Regular Offers:** Packages up to ₹6 LPA (IT services giants like TCS, Wipro, Cognizant, Infosys).\n* **Highest Package:** Has reached over **₹1.02 Crore/year** (International) and **₹50+ LPA** (National).\n* **Average Package:** Approximately **₹8 to ₹9 LPA** for B.Tech CSE graduates.\n\n---\n\n### 7. 🎉 Campus Life & Culture\nCampus life at VIT is vibrant, cosmopolitan, and energetic:\n* **Riviera:** One of India’s largest international sports and cultural fests, drawing thousands of college students nationwide.\n* **graVITas:** An annual international tech-fest featuring hackathons, robotics challenges, coding competitions, and workshops.\n* **Clubs & Chapters:** Over 100+ student-led clubs ranging from IEEE, ACM, and coding organizations to drama, music, dance, and gaming societies.\n\n---\n\n### Would you like to know more about:\n1. **VITEEE Exam Pattern & Preparation Strategy?**\n2. **Fee structure and Category breakdown (Cat 1 to Cat 5)?**\n3. **Comparison between VIT Vellore vs. VIT Chennai?**\n4. **Cutoff ranks for specific branches (like CSE/AI)?** \n\nLet me know what you'd like to explore next!",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "tell about vit university",
+          "timestamp": "2026-08-29T01:56:47.750Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787970450083",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-29T02:27:30.083Z"
+        },
+        {
+          "id": "bot_1787970454493",
+          "sender": "bot",
+          "messageId": "msg_1787970450094_v386y0",
+          "text": "Hello again! 😊 \n\nHow's it going? Are you still thinking about VIT University, or is there another topic, coding problem, or question you'd like to dive into today? I'm here to help with whatever you need!",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "hi",
+          "timestamp": "2026-08-29T02:27:34.493Z",
+          "feedback": null
+        }
+      ]
+    },
+    {
+      "id": "session_1787879043024",
+      "title": "hi",
+      "messages": [
+        {
+          "id": "usr_1787896342287",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-28T05:52:22.287Z"
+        },
+        {
+          "id": "bot_1787896371669",
+          "sender": "bot",
+          "messageId": "msg_1787896342296_8p1zu4",
+          "text": "Here is helpful guidance regarding your query:\n\n• Subject: hi\n• Recommended Action: Review core fundamentals, leverage verified references, and structure your approach step-by-step.\n\nI am available to assist you with universities, admissions, scholarships, exam prep (JEE, GATE, GRE, IELTS), programming tasks, and career pathways. Feel free to ask more details!",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "eduguide_nlp",
+          "matchedData": null,
+          "matched": true,
+          "thinking": null,
+          "userQuery": "hi",
+          "timestamp": "2026-08-28T05:52:51.669Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787896393095",
+          "sender": "user",
+          "text": "hello",
+          "attachments": [],
+          "timestamp": "2026-08-28T05:53:13.095Z"
+        },
+        {
+          "id": "bot_1787896394110",
+          "sender": "bot",
+          "messageId": "msg_1787896393103_dr4rei",
+          "text": "Hello:\n\nHello is a salutation or greeting in the English language. It is first attested in writing from 1826.",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            },
+            {
+              "title": "Hello (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Hello",
+              "domain": "Wikipedia",
+              "snippet": "Hello is a salutation or greeting in the English language. It is first attested in writing from 1826...."
+            }
+          ],
+          "source": "eduguide_nlp",
+          "matchedData": null,
+          "matched": true,
+          "thinking": null,
+          "userQuery": "hello",
+          "timestamp": "2026-08-28T05:53:14.110Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787896418880",
+          "sender": "user",
+          "text": "what is crescent university",
+          "attachments": [],
+          "timestamp": "2026-08-28T05:53:38.880Z"
+        },
+        {
+          "id": "bot_1787896432828",
+          "sender": "bot",
+          "messageId": "msg_1787896418888_3u9m4a",
+          "text": "Crescent University:\n\nCrescent University is located in Abeokuta, Ogun State, Nigeria. It is a private university established by Nigerian Judge Bola Ajibola under the banner of the Islamic Mission for Africa. It has the following colleges: The Bola Ajibola College of Law, The College of Environmental Sciences, The College of Information and Communication Technology, The College of Natural and Applied Sciences, The College of Arts, Social and Management Sciences and The College of Health Sciences.",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            },
+            {
+              "title": "Crescent University (DuckDuckGo Instant Knowledge)",
+              "url": "https://en.wikipedia.org/wiki/Crescent_University",
+              "domain": "DuckDuckGo Instant Knowledge",
+              "snippet": "Crescent University is located in Abeokuta, Ogun State, Nigeria. It is a private university established by Nigerian Judge Bola Ajibola under..."
+            }
+          ],
+          "source": "eduguide_nlp",
+          "matchedData": null,
+          "matched": true,
+          "thinking": null,
+          "userQuery": "what is crescent university",
+          "timestamp": "2026-08-28T05:53:52.828Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787896449581",
+          "sender": "user",
+          "text": "in chennai",
+          "attachments": [],
+          "timestamp": "2026-08-28T05:54:09.581Z"
+        },
+        {
+          "id": "bot_1787896452189",
+          "sender": "bot",
+          "messageId": "msg_1787896449588_xwo6h6",
+          "text": "Overview of Machine Learning & AI:\n\nMachine Learning (ML) is a subfield of Artificial Intelligence that focuses on developing algorithms that allow computers to learn from data and make predictions or decisions without being explicitly programmed.\n\nCore Pillars of Machine Learning:\n1. Supervised Learning: Learning with labeled data (e.g., Regression, Classification - Linear Models, Random Forest, XGBoost).\n2. Unsupervised Learning: Finding hidden patterns without labels (e.g., K-Means Clustering, PCA).\n3. Reinforcement Learning: Learning through trial, error, and reward signals (e.g., AlphaGo, Robotics).\n4. Deep Learning: Neural network architectures with multiple layers (e.g., CNNs for vision, Transformers & LLMs for NLP).\n\nRecommended Learning Roadmap:\n• Mathematics: Linear Algebra, Probability, Calculus, Optimization.\n• Python Libraries: NumPy, Pandas, Scikit-Learn, PyTorch, TensorFlow.\n• Real Projects: Kaggle competitions, GitHub open-source repositories, and end-to-end model deployment.",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "eduguide_nlp",
+          "matchedData": null,
+          "matched": true,
+          "thinking": null,
+          "userQuery": "in chennai",
+          "timestamp": "2026-08-28T05:54:12.189Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787967116598",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-29T01:31:56.598Z"
+        },
+        {
+          "id": "bot_1787967116689",
+          "sender": "bot",
+          "text": "I experienced a temporary connection issue. Please check your network or try asking again.",
+          "isFallback": true,
+          "userQuery": "hi",
+          "timestamp": "2026-08-29T01:31:56.689Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787967134614",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-29T01:32:14.614Z"
+        },
+        {
+          "id": "bot_1787967134630",
+          "sender": "bot",
+          "text": "I experienced a temporary connection issue. Please check your network or try asking again.",
+          "isFallback": true,
+          "userQuery": "hi",
+          "timestamp": "2026-08-29T01:32:14.630Z",
+          "feedback": null
+        }
+      ]
+    }
+  ],
+  "usr_g_google_1787970506889": [
+    {
+      "id": "session_1788222733217",
+      "title": "hlo",
+      "messages": [
+        {
+          "id": "usr_1788222737828",
+          "sender": "user",
+          "text": "hlo",
+          "attachments": [],
+          "timestamp": "2026-09-01T00:32:17.828Z"
+        },
+        {
+          "id": "bot_1788222740817",
+          "sender": "bot",
+          "messageId": "msg_1788222737838_4agn6v",
+          "text": "Hello! How can I help you today? \n\nWhether you have questions about higher education, scholarships, coding, general knowledge, or just want to chat, feel free to ask—I'm here to assist you with whatever you need!",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "hlo",
+          "timestamp": "2026-09-01T00:32:20.817Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1788222768171",
+          "sender": "user",
+          "text": "tell abour crescent university chennai",
+          "attachments": [],
+          "timestamp": "2026-09-01T00:32:48.171Z"
+        },
+        {
+          "id": "bot_1788222805326",
+          "sender": "bot",
+          "messageId": "msg_1788222768178_eg01ga",
+          "text": "**B.S. Abdur Rahman Crescent Institute of Science and Technology** (commonly known as **Crescent University**) is one of the premier deemed-to-be universities located in Vandalur, Chennai, Tamil Nadu. \n\nEstablished in 1984 as Crescent Engineering College, it was granted Deemed University status in 2008. It is renowned for its strong focus on engineering, technology, management, architecture, and law.\n\n---\n\n### 🌟 Key Highlights & Accreditations\n* **NAAC Accreditation:** Rated **'A+' Grade** by the National Assessment and Accreditation Council.\n* **Approvals:** Approved by UGC, AICTE, COA (Council of Architecture), BCI (Bar Council of India), and PCI (Pharmacy Council of India).\n* **NBA Accreditation:** Most engineering programs are accredited by the National Board of Accreditation (NBA).\n* **NIRF Rankings:** Consistently ranked among the top engineering and university institutions in India.\n\n---\n\n### 📚 Popular Academic Programs\n\n#### 1. Engineering & Technology (School of Infrastructure, Electrical, Mechanical, Computing, etc.)\n* **B.Tech:** Computer Science (CSE), AI & Data Science, Cyber Security, Electronics & Communication (ECE), Electrical & Electronics (EEE), Biotechnology, Civil, Mechanical, Aeronautical, etc.\n* **M.Tech:** Various specialized postgraduate engineering streams.\n\n#### 2. Management & Commerce (Crescent School of Business)\n* **BBA & B.Com**\n* **MBA:** Specializations in Innovation, Entrepreneurship & Venture Development, HR, Finance, Marketing, Operations, Logistics, etc.\n\n#### 3. Architecture & Design (Crescent School of Architecture)\n* **B.Arch** (5-year program)\n* **B.Des** (Interior Design)\n\n#### 4. Law (Crescent School of Law)\n* **B.A. LL.B (Hons.)** & **B.B.A. LL.B (Hons.)**\n* **LL.M**\n\n#### 5. Other Schools\n* **Computer Applications:** BCA, MCA\n* **Life Sciences & Pharmacy:** B.Pharm, B.Sc. Biotechnology, M.Sc.\n* **Humanities & Sciences:** B.Sc., B.A., Ph.D. programs across disciplines.\n\n---\n\n### 📝 Admission Process & Entrance Exams\n\n* **Engineering (B.Tech):** Admissions are based on performance in **CIEAT** (Crescent Institute Engineering Admission Test) or valid **JEE Main** scores, along with Class 12 marks.\n* **Architecture (B.Arch):** Admission requires a valid score in **NATA** (National Aptitude Test in Architecture).\n* **Law:** Based on **CLAT** scores or the internal Crescent Law Entrance Test.\n* **MBA:** Admissions require valid scores in **CAT / XAT / MAT / TANCET** or the Crescent Management Entrance Test, followed by a Personal Interview.\n\n---\n\n### 💼 Placements & Recruiters\nCrescent has an active **Placement & Training Cell** with a strong placement record:\n* **Top Recruiters:** TCS, Infosys, Cognizant, Wipro, Accenture, IBM, Capgemini, HCL, L&T Infotech, Tech Mahindra, Bosch, and Mindtree.\n* **Average Package:** Approximately ₹4.5 LPA – ₹6.5 LPA for engineering.\n* **Highest Package:** Offers ranging up to ₹12 LPA – ₹24+ LPA depending on the domain and student skill profile.\n\n---\n\n### 🏫 Campus Life & Infrastructure\n* **Green & Eco-Friendly Campus:** Located right opposite the Arignar Anna Zoological Park (Vandalur Zoo) along the GST Road.\n* **CIIC (Crescent Innovation & Incubation Council):** A highly active startup incubator supported by BIRAC and the Govt. of India, helping students turn innovative ideas into startups.\n* **Hostels & Sports:** Separate, well-maintained hostels for boys and girls, fully equipped gyms, sports grounds, and dining facilities.\n\n---\n\n### 💰 Scholarships\nCrescent offers several scholarship opportunities:\n* **Merit-based scholarships** for top scorers in Class 12 / CIEAT / JEE.\n* **Sports scholarships** for state/national level athletes.\n* **Alumni and Need-based/Minority scholarships**.\n\n---\n\n### 🎯 Next Steps / Need More Info?\nIf you are planning to apply, let me know if you would like specific details regarding:\n1. **Fee structure** for a particular program.\n2. **CIEAT Entrance Exam** syllabus & dates.\n3. **Hostel facilities & fees**. \n4. **Admission eligibility** for your preferred course.",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "tell abour crescent university chennai",
+          "timestamp": "2026-09-01T00:33:25.326Z",
+          "feedback": null
+        }
+      ]
+    },
+    {
+      "id": "session_1787968506250",
+      "title": "hi",
+      "messages": [
+        {
+          "id": "usr_1787968509173",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-29T01:55:09.173Z"
+        },
+        {
+          "id": "bot_1787968515083",
+          "sender": "bot",
+          "messageId": "msg_1787968509180_n399a5",
+          "text": "Hello there! 👋 \n\nHow can I help you today? Whether you need assistance with studying abroad, programming, writing, math, or just want to chat about a topic, I'm here and ready to help! What's on your mind?",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "hi",
+          "timestamp": "2026-08-29T01:55:15.083Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787968590269",
+          "sender": "user",
+          "text": "tell about vit university",
+          "attachments": [],
+          "timestamp": "2026-08-29T01:56:30.269Z"
+        },
+        {
+          "id": "bot_1787968607750",
+          "sender": "bot",
+          "messageId": "msg_1787968590276_xeqn8y",
+          "text": "**Vellore Institute of Technology (VIT)** is one of India’s premier private universities, highly renowned for engineering, technology, management, and applied sciences. Founded in 1984 by Dr. G. Viswanathan as Vellore Engineering College, it gained Deemed University status in 2001 and has grown into a global educational hub.\n\nHere is a comprehensive overview of VIT University across its campuses, admissions, academics, and placements:\n\n---\n\n### 1. 🏛️ Campuses\nVIT operates across four major campuses in India:\n* **VIT Vellore (Main Campus, Tamil Nadu):** The oldest, largest, and most prestigious campus with world-class facilities and a massive international student body.\n* **VIT Chennai (Tamil Nadu):** A modern, fast-growing eco-friendly campus close to IT hubs.\n* **VIT AP (Amaravati, Andhra Pradesh):** Known for specialized tech courses and futuristic infrastructure.\n* **VIT Bhopal (Madhya Pradesh):** Focused on AI, Robotics, and modern interdisciplinary fields with a unique interactive teaching style.\n\n---\n\n### 2. 🌟 Accreditation & Rankings\n* **NIRF Ranking:** Consistently ranked among the **Top 10–12 Engineering Institutes** in India (including IITs and NITs) and ranked **#1 among private engineering institutions**.\n* **NAAC Accreditation:** Awarded the highest **A++ grade** by the National Assessment and Accreditation Council (NAAC).\n* **Global Recognition:** Ranked in the **QS World University Rankings** and **Times Higher Education (THE)** World University Rankings.\n\n---\n\n### 3. 🎓 Popular Academic Programs\nVIT offers Undergraduate (UG), Postgraduate (PG), and Doctoral (Ph.D.) degrees.\n\n* **B.Tech Programs:** Computer Science & Engineering (CSE) with specializations (AI, Data Science, Cyber Security, Cloud Computing), Electronics & Communication (ECE), Electrical & Electronics (EEE), Mechanical, Biotechnology, Civil, etc.\n* **Other UG Courses:** BCA, B.Sc (Computer Science, Multimedia, Biotech), B.Arch, BBA, B.Com, Integrated M.Sc.\n* **PG Courses:** M.Tech, MCA, MBA, M.Sc.\n\n---\n\n### 4. 📚 Unique Academic System: FFCS\nVIT uses the **FFCS (Fully Flexible Credit System)**, which allows students to:\n* Design their own timetable and course schedule.\n* Choose their preferred faculty members for each course.\n* Select electives outside their major department (e.g., a CSE student can take music or psychology courses).\n* Pace their learning according to their individual academic goals.\n\n---\n\n### 5. 🎯 Admission Process\nAdmission to engineering and professional degree programs is purely merit-based:\n\n* **B.Tech Admissions:** Conducted through **VITEEE** (VIT Engineering Entrance Examination), an all-India computer-based test held annually in April. Admission categories (Category 1 to 5) determine the tuition fee structure based on your VITEEE rank.\n* **M.Tech / MCA Admissions:** Through **VITMEE** (VIT Master’s Entrance Examination) or GATE scores.\n* **MBA Admissions:** Based on CAT / MAT / XAT / NMAT / CMAT scores followed by a personal interview.\n* **Direct Admission:** Offered to central and state board toppers (Rank 1 holders).\n\n---\n\n### 6. 💼 Placements & Career Opportunities\nVIT holds multiple records in the **Limca Book of Records** for maximum placement offers from top-tier companies.\n\n* **Placement Tiers:**\n  * **Super Dream Offers:** Packages above ₹10 LPA (e.g., Microsoft, Amazon, Google, PayPal, De Shaw, WorkIndia).\n  * **Dream Offers:** Packages between ₹6 LPA and ₹10 LPA.\n  * **Regular Offers:** Packages up to ₹6 LPA (IT services giants like TCS, Wipro, Cognizant, Infosys).\n* **Highest Package:** Has reached over **₹1.02 Crore/year** (International) and **₹50+ LPA** (National).\n* **Average Package:** Approximately **₹8 to ₹9 LPA** for B.Tech CSE graduates.\n\n---\n\n### 7. 🎉 Campus Life & Culture\nCampus life at VIT is vibrant, cosmopolitan, and energetic:\n* **Riviera:** One of India’s largest international sports and cultural fests, drawing thousands of college students nationwide.\n* **graVITas:** An annual international tech-fest featuring hackathons, robotics challenges, coding competitions, and workshops.\n* **Clubs & Chapters:** Over 100+ student-led clubs ranging from IEEE, ACM, and coding organizations to drama, music, dance, and gaming societies.\n\n---\n\n### Would you like to know more about:\n1. **VITEEE Exam Pattern & Preparation Strategy?**\n2. **Fee structure and Category breakdown (Cat 1 to Cat 5)?**\n3. **Comparison between VIT Vellore vs. VIT Chennai?**\n4. **Cutoff ranks for specific branches (like CSE/AI)?** \n\nLet me know what you'd like to explore next!",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "tell about vit university",
+          "timestamp": "2026-08-29T01:56:47.750Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787970450083",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-29T02:27:30.083Z"
+        },
+        {
+          "id": "bot_1787970454493",
+          "sender": "bot",
+          "messageId": "msg_1787970450094_v386y0",
+          "text": "Hello again! 😊 \n\nHow's it going? Are you still thinking about VIT University, or is there another topic, coding problem, or question you'd like to dive into today? I'm here to help with whatever you need!",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "hi",
+          "timestamp": "2026-08-29T02:27:34.493Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1788222717538",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-09-01T00:31:57.538Z"
+        },
+        {
+          "id": "bot_1788222721564",
+          "sender": "bot",
+          "messageId": "msg_1788222717549_scsu81",
+          "text": "Hey there! 👋 Double the greetings!\n\nWhat can I assist you with right now? We were discussing VIT earlier, but feel free to throw any topic my way—whether it's college admissions, a coding problem, math, writing, or just general questions. \n\nHow can I support you today?",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "hi",
+          "timestamp": "2026-09-01T00:32:01.564Z",
+          "feedback": null
+        }
+      ]
+    },
+    {
+      "id": "session_1787879043024",
+      "title": "hi",
+      "messages": [
+        {
+          "id": "usr_1787896342287",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-28T05:52:22.287Z"
+        },
+        {
+          "id": "bot_1787896371669",
+          "sender": "bot",
+          "messageId": "msg_1787896342296_8p1zu4",
+          "text": "Here is helpful guidance regarding your query:\n\n• Subject: hi\n• Recommended Action: Review core fundamentals, leverage verified references, and structure your approach step-by-step.\n\nI am available to assist you with universities, admissions, scholarships, exam prep (JEE, GATE, GRE, IELTS), programming tasks, and career pathways. Feel free to ask more details!",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "eduguide_nlp",
+          "matchedData": null,
+          "matched": true,
+          "thinking": null,
+          "userQuery": "hi",
+          "timestamp": "2026-08-28T05:52:51.669Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787896393095",
+          "sender": "user",
+          "text": "hello",
+          "attachments": [],
+          "timestamp": "2026-08-28T05:53:13.095Z"
+        },
+        {
+          "id": "bot_1787896394110",
+          "sender": "bot",
+          "messageId": "msg_1787896393103_dr4rei",
+          "text": "Hello:\n\nHello is a salutation or greeting in the English language. It is first attested in writing from 1826.",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            },
+            {
+              "title": "Hello (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Hello",
+              "domain": "Wikipedia",
+              "snippet": "Hello is a salutation or greeting in the English language. It is first attested in writing from 1826...."
+            }
+          ],
+          "source": "eduguide_nlp",
+          "matchedData": null,
+          "matched": true,
+          "thinking": null,
+          "userQuery": "hello",
+          "timestamp": "2026-08-28T05:53:14.110Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787896418880",
+          "sender": "user",
+          "text": "what is crescent university",
+          "attachments": [],
+          "timestamp": "2026-08-28T05:53:38.880Z"
+        },
+        {
+          "id": "bot_1787896432828",
+          "sender": "bot",
+          "messageId": "msg_1787896418888_3u9m4a",
+          "text": "Crescent University:\n\nCrescent University is located in Abeokuta, Ogun State, Nigeria. It is a private university established by Nigerian Judge Bola Ajibola under the banner of the Islamic Mission for Africa. It has the following colleges: The Bola Ajibola College of Law, The College of Environmental Sciences, The College of Information and Communication Technology, The College of Natural and Applied Sciences, The College of Arts, Social and Management Sciences and The College of Health Sciences.",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            },
+            {
+              "title": "Crescent University (DuckDuckGo Instant Knowledge)",
+              "url": "https://en.wikipedia.org/wiki/Crescent_University",
+              "domain": "DuckDuckGo Instant Knowledge",
+              "snippet": "Crescent University is located in Abeokuta, Ogun State, Nigeria. It is a private university established by Nigerian Judge Bola Ajibola under..."
+            }
+          ],
+          "source": "eduguide_nlp",
+          "matchedData": null,
+          "matched": true,
+          "thinking": null,
+          "userQuery": "what is crescent university",
+          "timestamp": "2026-08-28T05:53:52.828Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787896449581",
+          "sender": "user",
+          "text": "in chennai",
+          "attachments": [],
+          "timestamp": "2026-08-28T05:54:09.581Z"
+        },
+        {
+          "id": "bot_1787896452189",
+          "sender": "bot",
+          "messageId": "msg_1787896449588_xwo6h6",
+          "text": "Overview of Machine Learning & AI:\n\nMachine Learning (ML) is a subfield of Artificial Intelligence that focuses on developing algorithms that allow computers to learn from data and make predictions or decisions without being explicitly programmed.\n\nCore Pillars of Machine Learning:\n1. Supervised Learning: Learning with labeled data (e.g., Regression, Classification - Linear Models, Random Forest, XGBoost).\n2. Unsupervised Learning: Finding hidden patterns without labels (e.g., K-Means Clustering, PCA).\n3. Reinforcement Learning: Learning through trial, error, and reward signals (e.g., AlphaGo, Robotics).\n4. Deep Learning: Neural network architectures with multiple layers (e.g., CNNs for vision, Transformers & LLMs for NLP).\n\nRecommended Learning Roadmap:\n• Mathematics: Linear Algebra, Probability, Calculus, Optimization.\n• Python Libraries: NumPy, Pandas, Scikit-Learn, PyTorch, TensorFlow.\n• Real Projects: Kaggle competitions, GitHub open-source repositories, and end-to-end model deployment.",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "eduguide_nlp",
+          "matchedData": null,
+          "matched": true,
+          "thinking": null,
+          "userQuery": "in chennai",
+          "timestamp": "2026-08-28T05:54:12.189Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787967116598",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-29T01:31:56.598Z"
+        },
+        {
+          "id": "bot_1787967116689",
+          "sender": "bot",
+          "text": "I experienced a temporary connection issue. Please check your network or try asking again.",
+          "isFallback": true,
+          "userQuery": "hi",
+          "timestamp": "2026-08-29T01:31:56.689Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787967134614",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-29T01:32:14.614Z"
+        },
+        {
+          "id": "bot_1787967134630",
+          "sender": "bot",
+          "text": "I experienced a temporary connection issue. Please check your network or try asking again.",
+          "isFallback": true,
+          "userQuery": "hi",
+          "timestamp": "2026-08-29T01:32:14.630Z",
+          "feedback": null
+        }
+      ]
+    }
+  ],
+  "usr_g_google_1788222926104": [
+    {
+      "id": "session_1788222733217",
+      "title": "hlo",
+      "messages": [
+        {
+          "id": "usr_1788222737828",
+          "sender": "user",
+          "text": "hlo",
+          "attachments": [],
+          "timestamp": "2026-09-01T00:32:17.828Z"
+        },
+        {
+          "id": "bot_1788222740817",
+          "sender": "bot",
+          "messageId": "msg_1788222737838_4agn6v",
+          "text": "Hello! How can I help you today? \n\nWhether you have questions about higher education, scholarships, coding, general knowledge, or just want to chat, feel free to ask—I'm here to assist you with whatever you need!",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "hlo",
+          "timestamp": "2026-09-01T00:32:20.817Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1788222768171",
+          "sender": "user",
+          "text": "tell abour crescent university chennai",
+          "attachments": [],
+          "timestamp": "2026-09-01T00:32:48.171Z"
+        },
+        {
+          "id": "bot_1788222805326",
+          "sender": "bot",
+          "messageId": "msg_1788222768178_eg01ga",
+          "text": "**B.S. Abdur Rahman Crescent Institute of Science and Technology** (commonly known as **Crescent University**) is one of the premier deemed-to-be universities located in Vandalur, Chennai, Tamil Nadu. \n\nEstablished in 1984 as Crescent Engineering College, it was granted Deemed University status in 2008. It is renowned for its strong focus on engineering, technology, management, architecture, and law.\n\n---\n\n### 🌟 Key Highlights & Accreditations\n* **NAAC Accreditation:** Rated **'A+' Grade** by the National Assessment and Accreditation Council.\n* **Approvals:** Approved by UGC, AICTE, COA (Council of Architecture), BCI (Bar Council of India), and PCI (Pharmacy Council of India).\n* **NBA Accreditation:** Most engineering programs are accredited by the National Board of Accreditation (NBA).\n* **NIRF Rankings:** Consistently ranked among the top engineering and university institutions in India.\n\n---\n\n### 📚 Popular Academic Programs\n\n#### 1. Engineering & Technology (School of Infrastructure, Electrical, Mechanical, Computing, etc.)\n* **B.Tech:** Computer Science (CSE), AI & Data Science, Cyber Security, Electronics & Communication (ECE), Electrical & Electronics (EEE), Biotechnology, Civil, Mechanical, Aeronautical, etc.\n* **M.Tech:** Various specialized postgraduate engineering streams.\n\n#### 2. Management & Commerce (Crescent School of Business)\n* **BBA & B.Com**\n* **MBA:** Specializations in Innovation, Entrepreneurship & Venture Development, HR, Finance, Marketing, Operations, Logistics, etc.\n\n#### 3. Architecture & Design (Crescent School of Architecture)\n* **B.Arch** (5-year program)\n* **B.Des** (Interior Design)\n\n#### 4. Law (Crescent School of Law)\n* **B.A. LL.B (Hons.)** & **B.B.A. LL.B (Hons.)**\n* **LL.M**\n\n#### 5. Other Schools\n* **Computer Applications:** BCA, MCA\n* **Life Sciences & Pharmacy:** B.Pharm, B.Sc. Biotechnology, M.Sc.\n* **Humanities & Sciences:** B.Sc., B.A., Ph.D. programs across disciplines.\n\n---\n\n### 📝 Admission Process & Entrance Exams\n\n* **Engineering (B.Tech):** Admissions are based on performance in **CIEAT** (Crescent Institute Engineering Admission Test) or valid **JEE Main** scores, along with Class 12 marks.\n* **Architecture (B.Arch):** Admission requires a valid score in **NATA** (National Aptitude Test in Architecture).\n* **Law:** Based on **CLAT** scores or the internal Crescent Law Entrance Test.\n* **MBA:** Admissions require valid scores in **CAT / XAT / MAT / TANCET** or the Crescent Management Entrance Test, followed by a Personal Interview.\n\n---\n\n### 💼 Placements & Recruiters\nCrescent has an active **Placement & Training Cell** with a strong placement record:\n* **Top Recruiters:** TCS, Infosys, Cognizant, Wipro, Accenture, IBM, Capgemini, HCL, L&T Infotech, Tech Mahindra, Bosch, and Mindtree.\n* **Average Package:** Approximately ₹4.5 LPA – ₹6.5 LPA for engineering.\n* **Highest Package:** Offers ranging up to ₹12 LPA – ₹24+ LPA depending on the domain and student skill profile.\n\n---\n\n### 🏫 Campus Life & Infrastructure\n* **Green & Eco-Friendly Campus:** Located right opposite the Arignar Anna Zoological Park (Vandalur Zoo) along the GST Road.\n* **CIIC (Crescent Innovation & Incubation Council):** A highly active startup incubator supported by BIRAC and the Govt. of India, helping students turn innovative ideas into startups.\n* **Hostels & Sports:** Separate, well-maintained hostels for boys and girls, fully equipped gyms, sports grounds, and dining facilities.\n\n---\n\n### 💰 Scholarships\nCrescent offers several scholarship opportunities:\n* **Merit-based scholarships** for top scorers in Class 12 / CIEAT / JEE.\n* **Sports scholarships** for state/national level athletes.\n* **Alumni and Need-based/Minority scholarships**.\n\n---\n\n### 🎯 Next Steps / Need More Info?\nIf you are planning to apply, let me know if you would like specific details regarding:\n1. **Fee structure** for a particular program.\n2. **CIEAT Entrance Exam** syllabus & dates.\n3. **Hostel facilities & fees**. \n4. **Admission eligibility** for your preferred course.",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "tell abour crescent university chennai",
+          "timestamp": "2026-09-01T00:33:25.326Z",
+          "feedback": null
+        }
+      ]
+    },
+    {
+      "id": "session_1787968506250",
+      "title": "hi",
+      "messages": [
+        {
+          "id": "usr_1787968509173",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-29T01:55:09.173Z"
+        },
+        {
+          "id": "bot_1787968515083",
+          "sender": "bot",
+          "messageId": "msg_1787968509180_n399a5",
+          "text": "Hello there! 👋 \n\nHow can I help you today? Whether you need assistance with studying abroad, programming, writing, math, or just want to chat about a topic, I'm here and ready to help! What's on your mind?",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "hi",
+          "timestamp": "2026-08-29T01:55:15.083Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787968590269",
+          "sender": "user",
+          "text": "tell about vit university",
+          "attachments": [],
+          "timestamp": "2026-08-29T01:56:30.269Z"
+        },
+        {
+          "id": "bot_1787968607750",
+          "sender": "bot",
+          "messageId": "msg_1787968590276_xeqn8y",
+          "text": "**Vellore Institute of Technology (VIT)** is one of India’s premier private universities, highly renowned for engineering, technology, management, and applied sciences. Founded in 1984 by Dr. G. Viswanathan as Vellore Engineering College, it gained Deemed University status in 2001 and has grown into a global educational hub.\n\nHere is a comprehensive overview of VIT University across its campuses, admissions, academics, and placements:\n\n---\n\n### 1. 🏛️ Campuses\nVIT operates across four major campuses in India:\n* **VIT Vellore (Main Campus, Tamil Nadu):** The oldest, largest, and most prestigious campus with world-class facilities and a massive international student body.\n* **VIT Chennai (Tamil Nadu):** A modern, fast-growing eco-friendly campus close to IT hubs.\n* **VIT AP (Amaravati, Andhra Pradesh):** Known for specialized tech courses and futuristic infrastructure.\n* **VIT Bhopal (Madhya Pradesh):** Focused on AI, Robotics, and modern interdisciplinary fields with a unique interactive teaching style.\n\n---\n\n### 2. 🌟 Accreditation & Rankings\n* **NIRF Ranking:** Consistently ranked among the **Top 10–12 Engineering Institutes** in India (including IITs and NITs) and ranked **#1 among private engineering institutions**.\n* **NAAC Accreditation:** Awarded the highest **A++ grade** by the National Assessment and Accreditation Council (NAAC).\n* **Global Recognition:** Ranked in the **QS World University Rankings** and **Times Higher Education (THE)** World University Rankings.\n\n---\n\n### 3. 🎓 Popular Academic Programs\nVIT offers Undergraduate (UG), Postgraduate (PG), and Doctoral (Ph.D.) degrees.\n\n* **B.Tech Programs:** Computer Science & Engineering (CSE) with specializations (AI, Data Science, Cyber Security, Cloud Computing), Electronics & Communication (ECE), Electrical & Electronics (EEE), Mechanical, Biotechnology, Civil, etc.\n* **Other UG Courses:** BCA, B.Sc (Computer Science, Multimedia, Biotech), B.Arch, BBA, B.Com, Integrated M.Sc.\n* **PG Courses:** M.Tech, MCA, MBA, M.Sc.\n\n---\n\n### 4. 📚 Unique Academic System: FFCS\nVIT uses the **FFCS (Fully Flexible Credit System)**, which allows students to:\n* Design their own timetable and course schedule.\n* Choose their preferred faculty members for each course.\n* Select electives outside their major department (e.g., a CSE student can take music or psychology courses).\n* Pace their learning according to their individual academic goals.\n\n---\n\n### 5. 🎯 Admission Process\nAdmission to engineering and professional degree programs is purely merit-based:\n\n* **B.Tech Admissions:** Conducted through **VITEEE** (VIT Engineering Entrance Examination), an all-India computer-based test held annually in April. Admission categories (Category 1 to 5) determine the tuition fee structure based on your VITEEE rank.\n* **M.Tech / MCA Admissions:** Through **VITMEE** (VIT Master’s Entrance Examination) or GATE scores.\n* **MBA Admissions:** Based on CAT / MAT / XAT / NMAT / CMAT scores followed by a personal interview.\n* **Direct Admission:** Offered to central and state board toppers (Rank 1 holders).\n\n---\n\n### 6. 💼 Placements & Career Opportunities\nVIT holds multiple records in the **Limca Book of Records** for maximum placement offers from top-tier companies.\n\n* **Placement Tiers:**\n  * **Super Dream Offers:** Packages above ₹10 LPA (e.g., Microsoft, Amazon, Google, PayPal, De Shaw, WorkIndia).\n  * **Dream Offers:** Packages between ₹6 LPA and ₹10 LPA.\n  * **Regular Offers:** Packages up to ₹6 LPA (IT services giants like TCS, Wipro, Cognizant, Infosys).\n* **Highest Package:** Has reached over **₹1.02 Crore/year** (International) and **₹50+ LPA** (National).\n* **Average Package:** Approximately **₹8 to ₹9 LPA** for B.Tech CSE graduates.\n\n---\n\n### 7. 🎉 Campus Life & Culture\nCampus life at VIT is vibrant, cosmopolitan, and energetic:\n* **Riviera:** One of India’s largest international sports and cultural fests, drawing thousands of college students nationwide.\n* **graVITas:** An annual international tech-fest featuring hackathons, robotics challenges, coding competitions, and workshops.\n* **Clubs & Chapters:** Over 100+ student-led clubs ranging from IEEE, ACM, and coding organizations to drama, music, dance, and gaming societies.\n\n---\n\n### Would you like to know more about:\n1. **VITEEE Exam Pattern & Preparation Strategy?**\n2. **Fee structure and Category breakdown (Cat 1 to Cat 5)?**\n3. **Comparison between VIT Vellore vs. VIT Chennai?**\n4. **Cutoff ranks for specific branches (like CSE/AI)?** \n\nLet me know what you'd like to explore next!",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "tell about vit university",
+          "timestamp": "2026-08-29T01:56:47.750Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787970450083",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-29T02:27:30.083Z"
+        },
+        {
+          "id": "bot_1787970454493",
+          "sender": "bot",
+          "messageId": "msg_1787970450094_v386y0",
+          "text": "Hello again! 😊 \n\nHow's it going? Are you still thinking about VIT University, or is there another topic, coding problem, or question you'd like to dive into today? I'm here to help with whatever you need!",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "hi",
+          "timestamp": "2026-08-29T02:27:34.493Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1788222717538",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-09-01T00:31:57.538Z"
+        },
+        {
+          "id": "bot_1788222721564",
+          "sender": "bot",
+          "messageId": "msg_1788222717549_scsu81",
+          "text": "Hey there! 👋 Double the greetings!\n\nWhat can I assist you with right now? We were discussing VIT earlier, but feel free to throw any topic my way—whether it's college admissions, a coding problem, math, writing, or just general questions. \n\nHow can I support you today?",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "hi",
+          "timestamp": "2026-09-01T00:32:01.564Z",
+          "feedback": null
+        }
+      ]
+    },
+    {
+      "id": "session_1787879043024",
+      "title": "hi",
+      "messages": [
+        {
+          "id": "usr_1787896342287",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-28T05:52:22.287Z"
+        },
+        {
+          "id": "bot_1787896371669",
+          "sender": "bot",
+          "messageId": "msg_1787896342296_8p1zu4",
+          "text": "Here is helpful guidance regarding your query:\n\n• Subject: hi\n• Recommended Action: Review core fundamentals, leverage verified references, and structure your approach step-by-step.\n\nI am available to assist you with universities, admissions, scholarships, exam prep (JEE, GATE, GRE, IELTS), programming tasks, and career pathways. Feel free to ask more details!",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "eduguide_nlp",
+          "matchedData": null,
+          "matched": true,
+          "thinking": null,
+          "userQuery": "hi",
+          "timestamp": "2026-08-28T05:52:51.669Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787896393095",
+          "sender": "user",
+          "text": "hello",
+          "attachments": [],
+          "timestamp": "2026-08-28T05:53:13.095Z"
+        },
+        {
+          "id": "bot_1787896394110",
+          "sender": "bot",
+          "messageId": "msg_1787896393103_dr4rei",
+          "text": "Hello:\n\nHello is a salutation or greeting in the English language. It is first attested in writing from 1826.",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            },
+            {
+              "title": "Hello (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Hello",
+              "domain": "Wikipedia",
+              "snippet": "Hello is a salutation or greeting in the English language. It is first attested in writing from 1826...."
+            }
+          ],
+          "source": "eduguide_nlp",
+          "matchedData": null,
+          "matched": true,
+          "thinking": null,
+          "userQuery": "hello",
+          "timestamp": "2026-08-28T05:53:14.110Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787896418880",
+          "sender": "user",
+          "text": "what is crescent university",
+          "attachments": [],
+          "timestamp": "2026-08-28T05:53:38.880Z"
+        },
+        {
+          "id": "bot_1787896432828",
+          "sender": "bot",
+          "messageId": "msg_1787896418888_3u9m4a",
+          "text": "Crescent University:\n\nCrescent University is located in Abeokuta, Ogun State, Nigeria. It is a private university established by Nigerian Judge Bola Ajibola under the banner of the Islamic Mission for Africa. It has the following colleges: The Bola Ajibola College of Law, The College of Environmental Sciences, The College of Information and Communication Technology, The College of Natural and Applied Sciences, The College of Arts, Social and Management Sciences and The College of Health Sciences.",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            },
+            {
+              "title": "Crescent University (DuckDuckGo Instant Knowledge)",
+              "url": "https://en.wikipedia.org/wiki/Crescent_University",
+              "domain": "DuckDuckGo Instant Knowledge",
+              "snippet": "Crescent University is located in Abeokuta, Ogun State, Nigeria. It is a private university established by Nigerian Judge Bola Ajibola under..."
+            }
+          ],
+          "source": "eduguide_nlp",
+          "matchedData": null,
+          "matched": true,
+          "thinking": null,
+          "userQuery": "what is crescent university",
+          "timestamp": "2026-08-28T05:53:52.828Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787896449581",
+          "sender": "user",
+          "text": "in chennai",
+          "attachments": [],
+          "timestamp": "2026-08-28T05:54:09.581Z"
+        },
+        {
+          "id": "bot_1787896452189",
+          "sender": "bot",
+          "messageId": "msg_1787896449588_xwo6h6",
+          "text": "Overview of Machine Learning & AI:\n\nMachine Learning (ML) is a subfield of Artificial Intelligence that focuses on developing algorithms that allow computers to learn from data and make predictions or decisions without being explicitly programmed.\n\nCore Pillars of Machine Learning:\n1. Supervised Learning: Learning with labeled data (e.g., Regression, Classification - Linear Models, Random Forest, XGBoost).\n2. Unsupervised Learning: Finding hidden patterns without labels (e.g., K-Means Clustering, PCA).\n3. Reinforcement Learning: Learning through trial, error, and reward signals (e.g., AlphaGo, Robotics).\n4. Deep Learning: Neural network architectures with multiple layers (e.g., CNNs for vision, Transformers & LLMs for NLP).\n\nRecommended Learning Roadmap:\n• Mathematics: Linear Algebra, Probability, Calculus, Optimization.\n• Python Libraries: NumPy, Pandas, Scikit-Learn, PyTorch, TensorFlow.\n• Real Projects: Kaggle competitions, GitHub open-source repositories, and end-to-end model deployment.",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "eduguide_nlp",
+          "matchedData": null,
+          "matched": true,
+          "thinking": null,
+          "userQuery": "in chennai",
+          "timestamp": "2026-08-28T05:54:12.189Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787967116598",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-29T01:31:56.598Z"
+        },
+        {
+          "id": "bot_1787967116689",
+          "sender": "bot",
+          "text": "I experienced a temporary connection issue. Please check your network or try asking again.",
+          "isFallback": true,
+          "userQuery": "hi",
+          "timestamp": "2026-08-29T01:31:56.689Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787967134614",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-29T01:32:14.614Z"
+        },
+        {
+          "id": "bot_1787967134630",
+          "sender": "bot",
+          "text": "I experienced a temporary connection issue. Please check your network or try asking again.",
+          "isFallback": true,
+          "userQuery": "hi",
+          "timestamp": "2026-08-29T01:32:14.630Z",
+          "feedback": null
+        }
+      ]
+    }
+  ],
+  "usr_g_google_1788223705142": [
+    {
+      "id": "session_1788222733217",
+      "title": "hlo",
+      "messages": [
+        {
+          "id": "usr_1788222737828",
+          "sender": "user",
+          "text": "hlo",
+          "attachments": [],
+          "timestamp": "2026-09-01T00:32:17.828Z"
+        },
+        {
+          "id": "bot_1788222740817",
+          "sender": "bot",
+          "messageId": "msg_1788222737838_4agn6v",
+          "text": "Hello! How can I help you today? \n\nWhether you have questions about higher education, scholarships, coding, general knowledge, or just want to chat, feel free to ask—I'm here to assist you with whatever you need!",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "hlo",
+          "timestamp": "2026-09-01T00:32:20.817Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1788222768171",
+          "sender": "user",
+          "text": "tell abour crescent university chennai",
+          "attachments": [],
+          "timestamp": "2026-09-01T00:32:48.171Z"
+        },
+        {
+          "id": "bot_1788222805326",
+          "sender": "bot",
+          "messageId": "msg_1788222768178_eg01ga",
+          "text": "**B.S. Abdur Rahman Crescent Institute of Science and Technology** (commonly known as **Crescent University**) is one of the premier deemed-to-be universities located in Vandalur, Chennai, Tamil Nadu. \n\nEstablished in 1984 as Crescent Engineering College, it was granted Deemed University status in 2008. It is renowned for its strong focus on engineering, technology, management, architecture, and law.\n\n---\n\n### 🌟 Key Highlights & Accreditations\n* **NAAC Accreditation:** Rated **'A+' Grade** by the National Assessment and Accreditation Council.\n* **Approvals:** Approved by UGC, AICTE, COA (Council of Architecture), BCI (Bar Council of India), and PCI (Pharmacy Council of India).\n* **NBA Accreditation:** Most engineering programs are accredited by the National Board of Accreditation (NBA).\n* **NIRF Rankings:** Consistently ranked among the top engineering and university institutions in India.\n\n---\n\n### 📚 Popular Academic Programs\n\n#### 1. Engineering & Technology (School of Infrastructure, Electrical, Mechanical, Computing, etc.)\n* **B.Tech:** Computer Science (CSE), AI & Data Science, Cyber Security, Electronics & Communication (ECE), Electrical & Electronics (EEE), Biotechnology, Civil, Mechanical, Aeronautical, etc.\n* **M.Tech:** Various specialized postgraduate engineering streams.\n\n#### 2. Management & Commerce (Crescent School of Business)\n* **BBA & B.Com**\n* **MBA:** Specializations in Innovation, Entrepreneurship & Venture Development, HR, Finance, Marketing, Operations, Logistics, etc.\n\n#### 3. Architecture & Design (Crescent School of Architecture)\n* **B.Arch** (5-year program)\n* **B.Des** (Interior Design)\n\n#### 4. Law (Crescent School of Law)\n* **B.A. LL.B (Hons.)** & **B.B.A. LL.B (Hons.)**\n* **LL.M**\n\n#### 5. Other Schools\n* **Computer Applications:** BCA, MCA\n* **Life Sciences & Pharmacy:** B.Pharm, B.Sc. Biotechnology, M.Sc.\n* **Humanities & Sciences:** B.Sc., B.A., Ph.D. programs across disciplines.\n\n---\n\n### 📝 Admission Process & Entrance Exams\n\n* **Engineering (B.Tech):** Admissions are based on performance in **CIEAT** (Crescent Institute Engineering Admission Test) or valid **JEE Main** scores, along with Class 12 marks.\n* **Architecture (B.Arch):** Admission requires a valid score in **NATA** (National Aptitude Test in Architecture).\n* **Law:** Based on **CLAT** scores or the internal Crescent Law Entrance Test.\n* **MBA:** Admissions require valid scores in **CAT / XAT / MAT / TANCET** or the Crescent Management Entrance Test, followed by a Personal Interview.\n\n---\n\n### 💼 Placements & Recruiters\nCrescent has an active **Placement & Training Cell** with a strong placement record:\n* **Top Recruiters:** TCS, Infosys, Cognizant, Wipro, Accenture, IBM, Capgemini, HCL, L&T Infotech, Tech Mahindra, Bosch, and Mindtree.\n* **Average Package:** Approximately ₹4.5 LPA – ₹6.5 LPA for engineering.\n* **Highest Package:** Offers ranging up to ₹12 LPA – ₹24+ LPA depending on the domain and student skill profile.\n\n---\n\n### 🏫 Campus Life & Infrastructure\n* **Green & Eco-Friendly Campus:** Located right opposite the Arignar Anna Zoological Park (Vandalur Zoo) along the GST Road.\n* **CIIC (Crescent Innovation & Incubation Council):** A highly active startup incubator supported by BIRAC and the Govt. of India, helping students turn innovative ideas into startups.\n* **Hostels & Sports:** Separate, well-maintained hostels for boys and girls, fully equipped gyms, sports grounds, and dining facilities.\n\n---\n\n### 💰 Scholarships\nCrescent offers several scholarship opportunities:\n* **Merit-based scholarships** for top scorers in Class 12 / CIEAT / JEE.\n* **Sports scholarships** for state/national level athletes.\n* **Alumni and Need-based/Minority scholarships**.\n\n---\n\n### 🎯 Next Steps / Need More Info?\nIf you are planning to apply, let me know if you would like specific details regarding:\n1. **Fee structure** for a particular program.\n2. **CIEAT Entrance Exam** syllabus & dates.\n3. **Hostel facilities & fees**. \n4. **Admission eligibility** for your preferred course.",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "tell abour crescent university chennai",
+          "timestamp": "2026-09-01T00:33:25.326Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1788223729043",
+          "sender": "user",
+          "text": "1",
+          "attachments": [],
+          "timestamp": "2026-09-01T00:48:49.043Z"
+        },
+        {
+          "id": "bot_1788223739542",
+          "sender": "bot",
+          "messageId": "msg_1788223729052_bjsp4a",
+          "text": "Assuming you selected **Option 1 (Fee Structure)** (or were asking about Class 11 eligibility for admissions), here is the detailed overview of the **Fee Structure** at B.S. Abdur Rahman Crescent Institute of Science and Technology for key programs:\n\n---\n\n### 💳 Estimated Fee Structure (Per Year)\n\n#### 1. B.Tech Programs (4 Years)\n* **Computer Science (CSE), AI & Data Science, Cyber Security:** \n  * Approx. **₹2,000,00 – ₹2,50,000 per year**\n* **ECE, EEE, Biotech, Mechanical, Civil, Aeronautical:** \n  * Approx. **₹1,25,000 – ₹1,75,000 per year**\n* *One-time admission fee & caution deposit: ₹20,000 – ₹25,000 (at entry).*\n\n#### 2. Architecture & Design\n* **B.Arch (5 Years):** Approx. **₹2,25,000 – ₹2,50,000 per year**\n* **B.Des (Interior Design - 4 Years):** Approx. **₹1,50,000 per year**\n\n#### 3. Management & Commerce\n* **MBA (2 Years):** Approx. **₹2,50,000 – ₹3,00,000 per year** (Total tuition ~ ₹5.0 to ₹6.0 Lakhs)\n* **BBA / B.Com (3 Years):** Approx. **₹80,000 – ₹1,20,000 per year**\n\n#### 4. Law Programs (5 Years Integrated)\n* **B.A. LL.B (Hons.) / B.B.A. LL.B (Hons.):** Approx. **₹1,50,000 – ₹1,75,000 per year**\n\n#### 5. Computer Applications & Sciences\n* **BCA (3 Years):** Approx. **₹80,000 – ₹1,00,000 per year**\n* **MCA (2 Years):** Approx. **₹1,00,000 – ₹1,25,000 per year**\n* **B.Sc. Biotechnology / Computer Science:** Approx. **₹70,000 – ₹90,000 per year**\n\n---\n\n### 🏠 Hostel & Mess Fees (Optional)\nIf you plan to stay on campus:\n* **AC Rooms / Special Sharing:** Approx. **₹1,20,000 – ₹1,50,000 per year** (includes food & amenities)\n* **Non-AC Sharing Rooms:** Approx. **₹85,000 – ₹1,05,000 per year**\n\n---\n\n### 🎓 Fee Concessions & Scholarships\n* High scorers in Class 12 / JEE Main / CIEAT can get **25% to 75% tuition fee waivers**.\n\n---\n\n*(Note: If by \"11\" you meant something else, such as Class 11 marks criteria or another specific query, let me know and I'll tailor the details for you!)*",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "1",
+          "timestamp": "2026-09-01T00:48:59.542Z",
+          "feedback": null
+        }
+      ]
+    },
+    {
+      "id": "session_1787968506250",
+      "title": "hi",
+      "messages": [
+        {
+          "id": "usr_1787968509173",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-29T01:55:09.173Z"
+        },
+        {
+          "id": "bot_1787968515083",
+          "sender": "bot",
+          "messageId": "msg_1787968509180_n399a5",
+          "text": "Hello there! 👋 \n\nHow can I help you today? Whether you need assistance with studying abroad, programming, writing, math, or just want to chat about a topic, I'm here and ready to help! What's on your mind?",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "hi",
+          "timestamp": "2026-08-29T01:55:15.083Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787968590269",
+          "sender": "user",
+          "text": "tell about vit university",
+          "attachments": [],
+          "timestamp": "2026-08-29T01:56:30.269Z"
+        },
+        {
+          "id": "bot_1787968607750",
+          "sender": "bot",
+          "messageId": "msg_1787968590276_xeqn8y",
+          "text": "**Vellore Institute of Technology (VIT)** is one of India’s premier private universities, highly renowned for engineering, technology, management, and applied sciences. Founded in 1984 by Dr. G. Viswanathan as Vellore Engineering College, it gained Deemed University status in 2001 and has grown into a global educational hub.\n\nHere is a comprehensive overview of VIT University across its campuses, admissions, academics, and placements:\n\n---\n\n### 1. 🏛️ Campuses\nVIT operates across four major campuses in India:\n* **VIT Vellore (Main Campus, Tamil Nadu):** The oldest, largest, and most prestigious campus with world-class facilities and a massive international student body.\n* **VIT Chennai (Tamil Nadu):** A modern, fast-growing eco-friendly campus close to IT hubs.\n* **VIT AP (Amaravati, Andhra Pradesh):** Known for specialized tech courses and futuristic infrastructure.\n* **VIT Bhopal (Madhya Pradesh):** Focused on AI, Robotics, and modern interdisciplinary fields with a unique interactive teaching style.\n\n---\n\n### 2. 🌟 Accreditation & Rankings\n* **NIRF Ranking:** Consistently ranked among the **Top 10–12 Engineering Institutes** in India (including IITs and NITs) and ranked **#1 among private engineering institutions**.\n* **NAAC Accreditation:** Awarded the highest **A++ grade** by the National Assessment and Accreditation Council (NAAC).\n* **Global Recognition:** Ranked in the **QS World University Rankings** and **Times Higher Education (THE)** World University Rankings.\n\n---\n\n### 3. 🎓 Popular Academic Programs\nVIT offers Undergraduate (UG), Postgraduate (PG), and Doctoral (Ph.D.) degrees.\n\n* **B.Tech Programs:** Computer Science & Engineering (CSE) with specializations (AI, Data Science, Cyber Security, Cloud Computing), Electronics & Communication (ECE), Electrical & Electronics (EEE), Mechanical, Biotechnology, Civil, etc.\n* **Other UG Courses:** BCA, B.Sc (Computer Science, Multimedia, Biotech), B.Arch, BBA, B.Com, Integrated M.Sc.\n* **PG Courses:** M.Tech, MCA, MBA, M.Sc.\n\n---\n\n### 4. 📚 Unique Academic System: FFCS\nVIT uses the **FFCS (Fully Flexible Credit System)**, which allows students to:\n* Design their own timetable and course schedule.\n* Choose their preferred faculty members for each course.\n* Select electives outside their major department (e.g., a CSE student can take music or psychology courses).\n* Pace their learning according to their individual academic goals.\n\n---\n\n### 5. 🎯 Admission Process\nAdmission to engineering and professional degree programs is purely merit-based:\n\n* **B.Tech Admissions:** Conducted through **VITEEE** (VIT Engineering Entrance Examination), an all-India computer-based test held annually in April. Admission categories (Category 1 to 5) determine the tuition fee structure based on your VITEEE rank.\n* **M.Tech / MCA Admissions:** Through **VITMEE** (VIT Master’s Entrance Examination) or GATE scores.\n* **MBA Admissions:** Based on CAT / MAT / XAT / NMAT / CMAT scores followed by a personal interview.\n* **Direct Admission:** Offered to central and state board toppers (Rank 1 holders).\n\n---\n\n### 6. 💼 Placements & Career Opportunities\nVIT holds multiple records in the **Limca Book of Records** for maximum placement offers from top-tier companies.\n\n* **Placement Tiers:**\n  * **Super Dream Offers:** Packages above ₹10 LPA (e.g., Microsoft, Amazon, Google, PayPal, De Shaw, WorkIndia).\n  * **Dream Offers:** Packages between ₹6 LPA and ₹10 LPA.\n  * **Regular Offers:** Packages up to ₹6 LPA (IT services giants like TCS, Wipro, Cognizant, Infosys).\n* **Highest Package:** Has reached over **₹1.02 Crore/year** (International) and **₹50+ LPA** (National).\n* **Average Package:** Approximately **₹8 to ₹9 LPA** for B.Tech CSE graduates.\n\n---\n\n### 7. 🎉 Campus Life & Culture\nCampus life at VIT is vibrant, cosmopolitan, and energetic:\n* **Riviera:** One of India’s largest international sports and cultural fests, drawing thousands of college students nationwide.\n* **graVITas:** An annual international tech-fest featuring hackathons, robotics challenges, coding competitions, and workshops.\n* **Clubs & Chapters:** Over 100+ student-led clubs ranging from IEEE, ACM, and coding organizations to drama, music, dance, and gaming societies.\n\n---\n\n### Would you like to know more about:\n1. **VITEEE Exam Pattern & Preparation Strategy?**\n2. **Fee structure and Category breakdown (Cat 1 to Cat 5)?**\n3. **Comparison between VIT Vellore vs. VIT Chennai?**\n4. **Cutoff ranks for specific branches (like CSE/AI)?** \n\nLet me know what you'd like to explore next!",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "tell about vit university",
+          "timestamp": "2026-08-29T01:56:47.750Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787970450083",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-29T02:27:30.083Z"
+        },
+        {
+          "id": "bot_1787970454493",
+          "sender": "bot",
+          "messageId": "msg_1787970450094_v386y0",
+          "text": "Hello again! 😊 \n\nHow's it going? Are you still thinking about VIT University, or is there another topic, coding problem, or question you'd like to dive into today? I'm here to help with whatever you need!",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "hi",
+          "timestamp": "2026-08-29T02:27:34.493Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1788222717538",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-09-01T00:31:57.538Z"
+        },
+        {
+          "id": "bot_1788222721564",
+          "sender": "bot",
+          "messageId": "msg_1788222717549_scsu81",
+          "text": "Hey there! 👋 Double the greetings!\n\nWhat can I assist you with right now? We were discussing VIT earlier, but feel free to throw any topic my way—whether it's college admissions, a coding problem, math, writing, or just general questions. \n\nHow can I support you today?",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "gemini",
+          "matchedData": null,
+          "matched": true,
+          "thinking": "Intent classified as GENERAL (Confidence: 85%) • Cross-referenced 1 authoritative source links • Live Gemini response generated with high precision (gemini-3.6-flash)",
+          "userQuery": "hi",
+          "timestamp": "2026-09-01T00:32:01.564Z",
+          "feedback": null
+        }
+      ]
+    },
+    {
+      "id": "session_1787879043024",
+      "title": "hi",
+      "messages": [
+        {
+          "id": "usr_1787896342287",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-28T05:52:22.287Z"
+        },
+        {
+          "id": "bot_1787896371669",
+          "sender": "bot",
+          "messageId": "msg_1787896342296_8p1zu4",
+          "text": "Here is helpful guidance regarding your query:\n\n• Subject: hi\n• Recommended Action: Review core fundamentals, leverage verified references, and structure your approach step-by-step.\n\nI am available to assist you with universities, admissions, scholarships, exam prep (JEE, GATE, GRE, IELTS), programming tasks, and career pathways. Feel free to ask more details!",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "eduguide_nlp",
+          "matchedData": null,
+          "matched": true,
+          "thinking": null,
+          "userQuery": "hi",
+          "timestamp": "2026-08-28T05:52:51.669Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787896393095",
+          "sender": "user",
+          "text": "hello",
+          "attachments": [],
+          "timestamp": "2026-08-28T05:53:13.095Z"
+        },
+        {
+          "id": "bot_1787896394110",
+          "sender": "bot",
+          "messageId": "msg_1787896393103_dr4rei",
+          "text": "Hello:\n\nHello is a salutation or greeting in the English language. It is first attested in writing from 1826.",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            },
+            {
+              "title": "Hello (Wikipedia)",
+              "url": "https://en.wikipedia.org/wiki/Hello",
+              "domain": "Wikipedia",
+              "snippet": "Hello is a salutation or greeting in the English language. It is first attested in writing from 1826...."
+            }
+          ],
+          "source": "eduguide_nlp",
+          "matchedData": null,
+          "matched": true,
+          "thinking": null,
+          "userQuery": "hello",
+          "timestamp": "2026-08-28T05:53:14.110Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787896418880",
+          "sender": "user",
+          "text": "what is crescent university",
+          "attachments": [],
+          "timestamp": "2026-08-28T05:53:38.880Z"
+        },
+        {
+          "id": "bot_1787896432828",
+          "sender": "bot",
+          "messageId": "msg_1787896418888_3u9m4a",
+          "text": "Crescent University:\n\nCrescent University is located in Abeokuta, Ogun State, Nigeria. It is a private university established by Nigerian Judge Bola Ajibola under the banner of the Islamic Mission for Africa. It has the following colleges: The Bola Ajibola College of Law, The College of Environmental Sciences, The College of Information and Communication Technology, The College of Natural and Applied Sciences, The College of Arts, Social and Management Sciences and The College of Health Sciences.",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            },
+            {
+              "title": "Crescent University (DuckDuckGo Instant Knowledge)",
+              "url": "https://en.wikipedia.org/wiki/Crescent_University",
+              "domain": "DuckDuckGo Instant Knowledge",
+              "snippet": "Crescent University is located in Abeokuta, Ogun State, Nigeria. It is a private university established by Nigerian Judge Bola Ajibola under..."
+            }
+          ],
+          "source": "eduguide_nlp",
+          "matchedData": null,
+          "matched": true,
+          "thinking": null,
+          "userQuery": "what is crescent university",
+          "timestamp": "2026-08-28T05:53:52.828Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787896449581",
+          "sender": "user",
+          "text": "in chennai",
+          "attachments": [],
+          "timestamp": "2026-08-28T05:54:09.581Z"
+        },
+        {
+          "id": "bot_1787896452189",
+          "sender": "bot",
+          "messageId": "msg_1787896449588_xwo6h6",
+          "text": "Overview of Machine Learning & AI:\n\nMachine Learning (ML) is a subfield of Artificial Intelligence that focuses on developing algorithms that allow computers to learn from data and make predictions or decisions without being explicitly programmed.\n\nCore Pillars of Machine Learning:\n1. Supervised Learning: Learning with labeled data (e.g., Regression, Classification - Linear Models, Random Forest, XGBoost).\n2. Unsupervised Learning: Finding hidden patterns without labels (e.g., K-Means Clustering, PCA).\n3. Reinforcement Learning: Learning through trial, error, and reward signals (e.g., AlphaGo, Robotics).\n4. Deep Learning: Neural network architectures with multiple layers (e.g., CNNs for vision, Transformers & LLMs for NLP).\n\nRecommended Learning Roadmap:\n• Mathematics: Linear Algebra, Probability, Calculus, Optimization.\n• Python Libraries: NumPy, Pandas, Scikit-Learn, PyTorch, TensorFlow.\n• Real Projects: Kaggle competitions, GitHub open-source repositories, and end-to-end model deployment.",
+          "intent": "GENERAL",
+          "entities": {
+            "country": null,
+            "degree": null,
+            "field": null,
+            "university": null,
+            "exam": null,
+            "funding": null
+          },
+          "sources": [
+            {
+              "title": "Erasmus+ EU Official Programme",
+              "url": "https://erasmus-plus.ec.europa.eu/",
+              "domain": "ec.europa.eu",
+              "snippet": "European Commission funding for education, training, and Joint Master Degrees."
+            }
+          ],
+          "source": "eduguide_nlp",
+          "matchedData": null,
+          "matched": true,
+          "thinking": null,
+          "userQuery": "in chennai",
+          "timestamp": "2026-08-28T05:54:12.189Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787967116598",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-29T01:31:56.598Z"
+        },
+        {
+          "id": "bot_1787967116689",
+          "sender": "bot",
+          "text": "I experienced a temporary connection issue. Please check your network or try asking again.",
+          "isFallback": true,
+          "userQuery": "hi",
+          "timestamp": "2026-08-29T01:31:56.689Z",
+          "feedback": null
+        },
+        {
+          "id": "usr_1787967134614",
+          "sender": "user",
+          "text": "hi",
+          "attachments": [],
+          "timestamp": "2026-08-29T01:32:14.614Z"
+        },
+        {
+          "id": "bot_1787967134630",
+          "sender": "bot",
+          "text": "I experienced a temporary connection issue. Please check your network or try asking again.",
+          "isFallback": true,
+          "userQuery": "hi",
+          "timestamp": "2026-08-29T01:32:14.630Z",
+          "feedback": null
+        }
+      ]
+    }
+  ]
+}

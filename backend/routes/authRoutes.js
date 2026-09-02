@@ -4,6 +4,8 @@ import {
   handleSignup,
   handleGoogleAuth,
   handleAppleAuth,
+  getGoogleAuthUrl,
+  getAppleAuthUrl,
   handleGetMe
 } from '../controllers/authController.js';
 
@@ -13,6 +15,9 @@ router.post('/login', handleLogin);
 router.post('/signup', handleSignup);
 router.post('/google', handleGoogleAuth);
 router.post('/apple', handleAppleAuth);
+router.get('/google/url', getGoogleAuthUrl);
+router.get('/apple/url', getAppleAuthUrl);
 router.get('/me', handleGetMe);
 
 export default router;
+

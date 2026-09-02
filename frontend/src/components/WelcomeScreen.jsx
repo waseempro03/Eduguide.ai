@@ -39,7 +39,7 @@ export default function WelcomeScreen({ onSelectQuery }) {
         {SUGGESTION_CARDS.map((card, idx) => (
           <div
             key={idx}
-            className="suggestion-card"
+            className="suggestion-card glass-card"
             onClick={() => onSelectQuery(card.query)}
             role="button"
             tabIndex={0}

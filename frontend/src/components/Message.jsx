@@ -6,15 +6,10 @@ import { Check, Sparkles, Volume2, VolumeX, Copy, Code, LayoutDashboard, Brain, 
 function cleanAndFormatText(text) {
   if (!text) return '';
   return text
-    // Remove markdown heading hashes (###, ##, #)
     .replace(/^#{1,6}\s+/gm, '')
-    // Remove asterisks around bold/italic words (***text***, **text**, *text*)
-    .replace(/\*{1,3}([^*]+)\*{1,3}/g, '$1')
-    // Replace bullet stars at beginning of lines with bullet symbols
-    .replace(/^\s*\*\s+/gm, '• ')
-    // Remove any leftover double or single asterisks
-    .replace(/\*{2,}/g, '')
-    .replace(/(\s)\*(\s)/g, '$1•$2')
+    .replace(/\*{3,}/g, '')
+    .replace(/^\s*[\*\-]\s+/gm, '• ')
+    .replace(/\*\*([^*]+)\*\*/g, '$1')
     .trim();
 }
 

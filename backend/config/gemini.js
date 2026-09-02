@@ -5,7 +5,7 @@ dotenv.config();
 let genAIInstance = null;
 
 export function isGeminiConfigured() {
-  const key = process.env.GEMINI_API_KEY;
+  const key = process.env.GEMINI_API_KEY || process.env.VITE_GEMINI_API_KEY;
   return Boolean(key && key.trim().length > 10 && !key.includes('your_gemini_api_key_here') && !key.includes('placeholder'));
 }
 
@@ -14,7 +14,8 @@ export function getGeminiClient() {
     return null;
   }
   if (!genAIInstance) {
-    genAIInstance = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY.trim() });
+    const key = (process.env.GEMINI_API_KEY || process.env.VITE_GEMINI_API_KEY).trim();
+    genAIInstance = new GoogleGenAI({ apiKey: key });
   }
   return genAIInstance;
 }

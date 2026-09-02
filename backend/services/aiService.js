@@ -166,8 +166,8 @@ export async function processEduGuideQuery(userMessage, conversationHistory = []
   if (gemini && modelPreference !== 'local' && modelPreference !== 'openai') {
     const candidateModels = [
       process.env.GEMINI_MODEL || 'gemini-3.6-flash',
-      'gemini-2.5-flash-lite',
-      'gemini-1.5-flash'
+      'gemini-3.6-flash',
+      'gemini-3.1-pro-preview'
     ];
 
     for (const modelName of candidateModels) {

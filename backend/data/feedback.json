@@ -428,5 +428,25 @@
     "feedback": "negative",
     "comment": "Needed more details on PG",
     "timestamp": "2026-09-02T04:46:35.813Z"
+  },
+  {
+    "id": 44,
+    "messageId": "test_msg_1788324725079",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-09-02T04:52:05.082Z"
+  },
+  {
+    "id": 45,
+    "messageId": "test_msg_1788324758076",
+    "faqId": 1,
+    "question": "What are admission requirements?",
+    "answer": "",
+    "feedback": "negative",
+    "comment": "Needed more details on PG",
+    "timestamp": "2026-09-02T04:52:38.079Z"
   }
 ]
